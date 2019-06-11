@@ -1,31 +1,42 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import '../assets/stylesheets/application.scss';
-
-const Hello = ({ name }) => {
-  return (
-    <div>
-      Hello,
-      {name}
-    </div>
-  );
-};
+import App from './components/app.jsx';
 
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(<Hello name="Emilie" />, root);
+  ReactDOM.render(
+    <App />,
+    root);
 }
 
-const Banner = () => {
-  return (
-    <div>
-      Banner
-    </div>
-  );
-};
+// const Banner = () => {
+//   return (
+//     <div>
+//       This is a banner
+//     </div>
+//   );
+// };
 
-const banner = document.getElementById('banner');
-if (banner) {
-  ReactDOM.render(<Banner />, banner);
-}
+// const banner = document.getElementById('banner');
+// if (banner) {
+//   ReactDOM.render(<Banner />, banner);
+// }
+
+// const Hello = ({ name }) => {
+//   return (
+//     <div>
+//       Hello,
+//       {name}
+//     </div>
+//   );
+// };
+
+// const root = document.getElementById('root');
+// if (root) {
+//   ReactDOM.render(<Hello name="Emilie" />, root);
+// }
+
+
+
