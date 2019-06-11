@@ -14,5 +14,18 @@ const Hello = ({ name }) => {
 
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(<Hello name="World" />, root);
+  ReactDOM.render(<Hello name="Emilie" />, root);
+}
+
+const Banner = () => {
+  return (
+    <div>
+      Banner
+    </div>
+  );
+};
+
+const banner = document.getElementById('banner');
+if (banner) {
+  ReactDOM.render(<Banner />, banner);
 }
