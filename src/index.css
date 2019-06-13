@@ -41,6 +41,7 @@ code {
 
 .second-middle-style {
   grid-area: second-middle-section;
+
 }
 
 .last-foot {
@@ -50,8 +51,39 @@ code {
 .top-kalli,
 .first-middle-black,
 .second-middle-style {
-  border: 8px solid blue;
+  border: 2px solid blue;
 }
+
+/*Emilie's section - styling the Second-middle-style*/
+
+.second-middle-style {
+  height: 30vh;
+}
+
+.second-middle-navbar {
+  border: 2px solid red;
+  padding: 20px;
+  display: flex;
+  align-items: space-between;
+
+}
+
+.add-to-cart-button {
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.remove-to-cart-button {
+  padding: 10px 20px 10px 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+/*Emilie's section - end*/
 
 .last-foot {
   background: #282c34;
