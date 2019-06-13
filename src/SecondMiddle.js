@@ -14,7 +14,9 @@ export class SecondMiddle extends React.Component {
         </div>
 
        <div>
-        <div></div>
+        <div className="accessory-sunglasses">
+          <img src="https://cache.mrporter.com/images/products/1156205/1156205_mrp_in_xl.jpg" width="150" height="150" alt="" />
+        </div>
         <div></div>
         <div></div>
         <div></div>
