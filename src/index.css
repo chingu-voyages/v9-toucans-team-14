@@ -64,7 +64,7 @@ code {
   border: 2px solid red;
   padding: 20px;
   display: flex;
-  align-items: space-between;
+  justify-content: space-between;
 
 }
 
