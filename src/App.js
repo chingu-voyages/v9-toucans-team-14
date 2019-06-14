@@ -6,6 +6,15 @@ import { FirstMiddle } from "./FirstMiddle";
 import { SecondMiddle } from "./SecondMiddle";
 import { Foot } from "./Foot";
 
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { faHeart } from '@fortawesome/free-solid-svg-icons'
+
+// library.add(
+//    fab,
+//    faHeart,
+// )
+
 export class App extends React.Component {
   render() {
     return (

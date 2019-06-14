@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import "./assets/stylesheets/components/second-middle.css"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export class SecondMiddle extends React.Component {
   render() {
@@ -9,8 +11,8 @@ export class SecondMiddle extends React.Component {
         <div className="second-middle-navbar">
           <h3>Style with... </h3>
           <div>
-            <a href="" className="add-to-cart-button">Add</a>
-            <a href="" className="remove-to-cart-button">Remove</a>
+            <a href="btn" className="add-to-cart-button">Add</a>
+            <a href="btn" className="remove-to-cart-button">Remove</a>
           </div>
         </div>
 
