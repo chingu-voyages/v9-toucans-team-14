@@ -29,12 +29,13 @@
 
 .accessory-1 {
 /*  border: 2px solid red;
-*/height: 200px;
-  width: 200px;
+*/height: 250px;
+  width: 250px;
   background-color: rgb(250, 250, 250);
   position: relative;
   display: flex;
   align-items: center;
+  margin: 20px;
 }
 
 .accessory-1 > img {
