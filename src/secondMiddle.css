@@ -1,0 +1,39 @@
+.second-middle-style {
+  height: 30vh;
+}
+
+.second-middle-navbar {
+  border: 2px solid red;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.add-to-cart-button {
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.remove-to-cart-button {
+  padding: 10px 20px 10px 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.accessory-1 {
+  border: 2px solid red;
+  height: 200px;
+  width: 200px;
+  /*center the image*/
+  text-align: center;
+  vertical-align: middle;
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+}
