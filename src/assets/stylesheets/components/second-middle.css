@@ -26,16 +26,24 @@
 }
 
 .accessory-1 {
-  /*justify-content: center;
-  align-items: center;*/
   border: 2px solid red;
   height: 200px;
   width: 200px;
-  /*center the image*/
   background-color: rgb(240,240,240);
+  position: relative;
 }
 
 .img {
   text-align: center;
   vertical-align: middle;
+}
+
+.accessory-details {
+  display: flex;
+  justify-content: space-between;
+  /*to stick the details at the bottom*/
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-weight: lighter;
 }
