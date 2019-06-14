@@ -1,6 +1,6 @@
 .second-middle-navbar {
-  border: 2px solid red;
-  padding: 20px;
+/*  border: 2px solid red;
+*/  padding: 20px;
   display: flex;
   justify-content: space-between;
 
@@ -23,6 +23,8 @@
 
 .accessories-wrapper {
   margin: 40px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .accessory-1 {
