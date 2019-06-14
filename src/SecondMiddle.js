@@ -15,13 +15,15 @@ export class SecondMiddle extends React.Component {
         </div>
 
        <div className="accessories-wrapper">
-        <div className="accessory-1">
-          <img src="https://www.visiofactory.com/70358/giorgio-armani-frames-of-life-yellow-matte-ar8093-5006-31-47-23-medium.jpg" alt="" />
-          <div className="accessory-details">
-            <p>$350</p>
-            <p>Reviews</p>
+        <a href="#">
+          <div className="accessory-1">
+            <img src="https://www.visiofactory.com/70358/giorgio-armani-frames-of-life-yellow-matte-ar8093-5006-31-47-23-medium.jpg" alt="" />
+            <div className="accessory-details">
+              <p>$350</p>
+              <p>Reviews</p>
+            </div>
           </div>
-        </div>
+        </a>
         <div></div>
         <div></div>
         <div></div>
