@@ -41,6 +41,7 @@ code {
 
 .second-middle-style {
   grid-area: second-middle-section;
+
 }
 
 .last-foot {
@@ -50,7 +51,7 @@ code {
 .top-kalli,
 .first-middle-black,
 .second-middle-style {
-  border: 8px solid blue;
+  border: 2px solid blue;
 }
 
 .last-foot {
