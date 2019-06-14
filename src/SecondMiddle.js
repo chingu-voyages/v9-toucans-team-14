@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import "./secondMiddle.css"
+import "./assets/stylesheets/components/second-middle.css"
 
 export class SecondMiddle extends React.Component {
   render() {
@@ -17,6 +17,10 @@ export class SecondMiddle extends React.Component {
        <div className="accessories-wrapper">
         <div className="accessory-1">
           <img src="https://www.visiofactory.com/70358/giorgio-armani-frames-of-life-yellow-matte-ar8093-5006-31-47-23-medium.jpg" width="200" height="100" alt="" />
+          <div>
+            <p>$350</p>
+            <i class="far fa-heart"></i>
+          </div>
         </div>
         <div></div>
         <div></div>
