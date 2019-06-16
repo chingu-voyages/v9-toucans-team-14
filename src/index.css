@@ -41,7 +41,6 @@ code {
 
 .second-middle-style {
   grid-area: second-middle-section;
-
 }
 
 .last-foot {
@@ -90,6 +89,7 @@ code {
 
 .sub-title {
   color: darkgrey;
+  text-transform: uppercase;
 }
 
 .lists p {
@@ -101,6 +101,7 @@ code {
   display: flex;
   padding-top: 10px;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .last-foot li {

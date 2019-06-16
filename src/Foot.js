@@ -6,58 +6,72 @@ export class Foot extends React.Component {
     return (
       <div className="last-foot">
         <h3 className="section-title">kalli</h3>
-        <p className="copyright-text sub-title">Copyright</p>
+        <p className="copyright-text sub-title">
+          Copyright @2019 Made with <span> 💗 </span> by Chingu-Toucans-team-14
+        </p>
         <li className="first-list lists">
-          <p className="sub-title">Category</p>
+          <p className="sub-title">quick-links</p>
           <a href="https://chingu.io" target="_blank">
-            One
+            my account
           </a>
           <a href="https://chingu.io" target="_blank">
-            Two
+            order history
           </a>
           <a href="https://chingu.io" target="_blank">
-            Three
+            my wishlist
           </a>
           <a href="https://chingu.io" target="_blank">
-            Four
+            order tracking
           </a>
           <a href="https://chingu.io" target="_blank">
-            Five
+            gift vouchers
+          </a>
+          <a href="https://chingu.io" target="_blank">
+            checkout
           </a>
         </li>
 
         <li className="second-list lists">
-          <p className="sub-title">Something</p>
+          <p className="sub-title">style advisor</p>
           <a href="https://chingu.io" target="_blank">
-            One
+            your account
           </a>
           <a href="https://chingu.io" target="_blank">
-            Two
+            additional information
           </a>
           <a href="https://chingu.io" target="_blank">
-            Three
+            discount
           </a>
           <a href="https://chingu.io" target="_blank">
-            Four
+            orders history
           </a>
           <a href="https://chingu.io" target="_blank">
-            Five
+            addresses
+          </a>
+          <a href="https://chingu.io" target="_blank">
+            shipping informations
           </a>
         </li>
 
         <li className="third-list lists">
-          <p className="sub-title">Feature</p>
+          <p className="sub-title">information</p>
           <a href="https://chingu.io" target="_blank">
-            One
+            about us
           </a>
           <a href="https://chingu.io" target="_blank">
-            Two
+            delivery information
           </a>
           <a href="https://chingu.io" target="_blank">
-            Three
+            terms & condtitions
           </a>
           <a href="https://chingu.io" target="_blank">
-            Four
+            privacy policy
+          </a>
+          <a href="https://chingu.io" target="_blank">
+            contact us
+          </a>
+          <a href="https://chingu.io" target="_blank">
+            return policy
           </a>
         </li>
       </div>
