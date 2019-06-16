@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 
 export class FirstMiddle extends React.Component {
   render() {

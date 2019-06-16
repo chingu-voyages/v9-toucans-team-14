@@ -1,11 +1,16 @@
 import React from "react";
-import "./App.css";
+import Social from "./assets/Social";
 
 export class Foot extends React.Component {
   render() {
     return (
       <div className="last-foot">
         <h3 className="section-title">kalli</h3>
+
+        <li className="social-media">
+          <Social />
+        </li>
+
         <p className="copyright-text sub-title">
           Copyright @2019 Made with <span> 💗 </span> by Chingu-Toucans-team-14
         </p>
@@ -74,6 +79,8 @@ export class Foot extends React.Component {
             return policy
           </a>
         </li>
+
+        <button className="top" />
       </div>
     );
   }

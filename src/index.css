@@ -59,16 +59,21 @@ code {
   color: white;
   display: grid;
   /* grid-gap: 10px; */
-  grid-template-columns: 2fr 200px 200px 200px;
+  grid-template-columns: 2fr 200px 200px 200px 50px;
   grid-template-areas:
-    "title cat som fea"
-    ". cat som fea"
-    "cop cat som fea";
+    "title cat som fea ."
+    "soc cat som fea ."
+    "cop cat som fea ."
+    ". . . . to";
   padding: 30px 0 0 20px;
 }
 
 .section-title {
   grid-area: title;
+}
+
+.social-media {
+  grid-area: soc;
 }
 
 .first-list {
@@ -81,6 +86,10 @@ code {
 
 .third-list {
   grid-area: fea;
+}
+
+.top {
+  grid-area: to;
 }
 
 .copyright-text {
@@ -104,8 +113,29 @@ code {
   text-transform: capitalize;
 }
 
+.lists a:hover {
+  color: gray;
+}
+
 .last-foot li {
   list-style: none;
+}
+
+/* Social media links */
+.social-media-links {
+  /* padding: 0 5px; */
+}
+
+a.social {
+  color: gray;
+  display: inline-block;
+  margin: 0 5px;
+  transition: transform 250ms;
+}
+
+a.social:hover {
+  color: lightblue;
+  transform: translateY(-4px);
 }
 
 /* Team-14 styles end here */

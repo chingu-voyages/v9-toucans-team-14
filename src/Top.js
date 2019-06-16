@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 
 export class Top extends React.Component {
   render() {
@@ -10,5 +9,3 @@ export class Top extends React.Component {
     );
   }
 }
-
-// export default topKalli;
