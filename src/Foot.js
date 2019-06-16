@@ -1,5 +1,6 @@
 import React from "react";
-import Social from "./assets/Social";
+import Social from "./Social";
+import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
 export class Foot extends React.Component {
   render() {
@@ -12,8 +13,15 @@ export class Foot extends React.Component {
         </li>
 
         <p className="copyright-text sub-title">
-          Copyright @2019 Made with <span> 💗 </span> by Chingu-Toucans-team-14
+          Copyright @2019 Made with <span> 💗 </span> by{" "}
+          <a
+            href="https://github.com/chingu-voyages/v9-toucans-team-14/tree/master"
+            target="_blank"
+          >
+            Chingu-Toucans-team-14
+          </a>
         </p>
+
         <li className="first-list lists">
           <p className="sub-title">quick-links</p>
           <a href="https://chingu.io" target="_blank">
@@ -80,7 +88,7 @@ export class Foot extends React.Component {
           </a>
         </li>
 
-        <button className="top" />
+        <ScrollUpButton />
       </div>
     );
   }

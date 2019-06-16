@@ -13,12 +13,15 @@ code {
 }
 
 /* Team-14-css styling starts here */
+
+/* Global */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Main page */
 .main-container {
   display: grid;
   grid-gap: 10px;
@@ -53,6 +56,35 @@ code {
   border: 2px solid blue;
 }
 
+/* Top */
+.top-kalli {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "lb cb rb"
+    "lb cb rb"
+    "lb cb rb"
+    "fb fb fb";
+}
+
+.left-banner {
+  grid-area: lb;
+}
+
+.center-banner {
+  grid-area: cb;
+}
+
+.right-banner {
+  grid-area: rb;
+}
+
+.foot-banner {
+  grid-area: fb;
+}
+
+/* Foot */
 .last-foot {
   background: #282c34;
   border: 8px solid blue;
@@ -99,6 +131,12 @@ code {
 .sub-title {
   color: darkgrey;
   text-transform: uppercase;
+}
+
+.sub-title a {
+  color: darkgrey;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .lists p {

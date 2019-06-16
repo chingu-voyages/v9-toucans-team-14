@@ -11,7 +11,6 @@ import {
 export default function Social() {
   return (
     <div className="social-media-links">
-      {/* <h3>Social Links</h3> */}
       <a className="facebook social" href="https://www.facebook.com">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
