@@ -76,12 +76,21 @@ code {
   grid-area: cb;
 }
 
+.center-banner img {
+  height: 300px;
+  width: 300px;
+}
+
 .right-banner {
   grid-area: rb;
 }
 
 .foot-banner {
   grid-area: fb;
+}
+
+.top-kalli {
+  background: #f6f6f6;
 }
 
 /* Foot */
