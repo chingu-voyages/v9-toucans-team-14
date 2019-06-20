@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "./Social";
+
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
 export class Foot extends React.Component {
@@ -25,66 +26,66 @@ export class Foot extends React.Component {
         <li className="first-list lists">
           <p className="sub-title">quick-links</p>
           <a href="https://chingu.io" target="_blank">
-            my account
+            > my account
           </a>
           <a href="https://chingu.io" target="_blank">
-            order history
+            > order history
           </a>
           <a href="https://chingu.io" target="_blank">
-            my wishlist
+            > my wishlist
           </a>
           <a href="https://chingu.io" target="_blank">
-            order tracking
+            > order tracking
           </a>
           <a href="https://chingu.io" target="_blank">
-            gift vouchers
+            > gift vouchers
           </a>
           <a href="https://chingu.io" target="_blank">
-            checkout
+            > checkout
           </a>
         </li>
 
         <li className="second-list lists">
           <p className="sub-title">style advisor</p>
           <a href="https://chingu.io" target="_blank">
-            your account
+            > your account
           </a>
           <a href="https://chingu.io" target="_blank">
-            additional information
+            > additional information
           </a>
           <a href="https://chingu.io" target="_blank">
-            discount
+            > discount
           </a>
           <a href="https://chingu.io" target="_blank">
-            orders history
+            > orders history
           </a>
           <a href="https://chingu.io" target="_blank">
-            addresses
+            > addresses
           </a>
           <a href="https://chingu.io" target="_blank">
-            shipping informations
+            > shipping informations
           </a>
         </li>
 
         <li className="third-list lists">
           <p className="sub-title">information</p>
           <a href="https://chingu.io" target="_blank">
-            about us
+            > about us
           </a>
           <a href="https://chingu.io" target="_blank">
-            delivery information
+            > delivery information
           </a>
           <a href="https://chingu.io" target="_blank">
-            terms & condtitions
+            > terms & condtitions
           </a>
           <a href="https://chingu.io" target="_blank">
-            privacy policy
+            > privacy policy
           </a>
           <a href="https://chingu.io" target="_blank">
-            contact us
+            > contact us
           </a>
           <a href="https://chingu.io" target="_blank">
-            return policy
+            > return policy
           </a>
         </li>
 
