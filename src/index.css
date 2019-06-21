@@ -96,6 +96,18 @@ body {
 }
 
 .small-images {
+  padding-top: 20px;
+}
+
+.small-images img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  width: 60px;
+}
+
+.small-images img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 191, 255, 0.8);
 }
 
 /* center banner */
