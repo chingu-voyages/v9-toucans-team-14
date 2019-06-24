@@ -1,7 +1,4 @@
-/*.right-banner {
-  justify-content: center;
-  align-items: center;
-}*/
+/* layout design starts*/
 
 .right-banner {
   width: 100%;
@@ -15,6 +12,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+/*layout design ends*/
 
 /*size design starts*/
 
@@ -80,8 +79,7 @@
 /*colours design starts*/
 
 .colour-btns {
-/*  border: 2px solid red;
-*/width: 25%;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: space-between;
