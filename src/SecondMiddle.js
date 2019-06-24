@@ -10,11 +10,11 @@ export class SecondMiddle extends React.Component {
         <div className="second-middle-navbar">
           <h3>Style with &nbsp; &mdash;</h3>
           <div>
-            <a href="btn" className="add-to-cart-button">
-              Add
+            <a href="btn" class="add-to-cart-button">
+              <FontAwesomeIcon icon="long-arrow-alt-left" />
             </a>
             <a href="btn" className="remove-to-cart-button">
-              Remove
+            <FontAwesomeIcon icon="long-arrow-alt-right" />
             </a>
           </div>
         </div>
