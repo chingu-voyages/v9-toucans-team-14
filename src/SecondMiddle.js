@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import "./assets/stylesheets/components/second-middle.css";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export class SecondMiddle extends React.Component {
   render() {
     return (
       <div className="second-middle-style">
         <div className="second-middle-navbar">
-          <h3>Style with... </h3>
+          <h3>Style with &nbsp; &mdash;</h3>
           <div>
             <a href="btn" className="add-to-cart-button">
               Add
