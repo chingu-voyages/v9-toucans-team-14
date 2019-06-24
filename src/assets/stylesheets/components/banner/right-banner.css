@@ -1,7 +1,4 @@
-/*.right-banner {
-  justify-content: center;
-  align-items: center;
-}*/
+/* layout design starts*/
 
 .right-banner {
   width: 100%;
@@ -16,13 +13,15 @@
   justify-content: space-between;
 }
 
+/*layout design ends*/
+
 /*size design starts*/
 
 .size-circles {
-/*  border: 2px solid green;
-*/  display: flex;
+  display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-top: 20px;
 }
 
 .circle {
@@ -78,15 +77,13 @@
 /*price design ends*/
 
 /*colours design starts*/
-.colour-wrapper {
-}
 
 .colour-btns {
-/*  border: 2px solid red;
-*/  width: 25%;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .btn-color-black {
@@ -100,6 +97,17 @@
   border-radius: 50%;
   border: 1px solid grey;
   background-color: white;
+}
+
+.btn-color-black.selected {
+  border-style: solid;
+  border-width: 6px;
+  border-color: rgb(220, 220, 220);
+}
+
+.btn-color-white.selected {
+  border: 2px solid black;
+  box-shadow: 0 0 0 4px black inset;
 }
 
 /*colours design ends*/

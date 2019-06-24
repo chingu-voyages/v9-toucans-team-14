@@ -11,19 +11,19 @@ export class RightBanner extends React.Component {
         <div className="wrapper">
           <div className="size-wrapper">
             <div>
-              <p> SIZE </p>
+              <p><strong>SIZE</strong></p>
             </div>
             <div className="size-circles">
-              <p className="circle s37 selected">37</p>
-              <p className="circle s38">38</p>
-              <p className="circle s39">39</p>
-              <p className="circle s40 na">40</p>
-              <p className="circle s41">41</p>
+              <p className="circle s37 selected"><strong>37</strong></p>
+              <p className="circle s38"><strong>38</strong></p>
+              <p className="circle s39"><strong>39</strong></p>
+              <p className="circle s40 na"><strong>40</strong></p>
+              <p className="circle s41"><strong>41</strong></p>
             </div>
           </div>
           <div className="reviews-wrapper">
             <div>
-              <p>REVIEWS</p>
+              <p><strong>REVIEWS</strong></p>
             </div>
             <div className="star-icons">
               <FontAwesomeIcon icon={['fas', 'star']} />
@@ -35,16 +35,16 @@ export class RightBanner extends React.Component {
           </div>
           <div className="price-wrapper">
             <div>
-              <p className="price">PRICE</p>
+              <p className="price"><strong>PRICE</strong></p>
             </div>
             <div>
-              <p>$450</p>
+              <p><strong>$450</strong></p>
             </div>
           </div>
           <div className="colour-wrapper">
-            <p>COLOUR</p>
+            <p><strong>COLOUR</strong></p>
             <div className="colour-btns">
-              <a href="btn" className="btn-color-black">
+              <a href="btn" className="btn-color-black selected">
               </a>
               <a href="btn" className="btn-color-white">
               </a>
