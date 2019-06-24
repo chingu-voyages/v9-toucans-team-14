@@ -4,7 +4,6 @@
 }*/
 
 .right-banner {
-  border: 2px solid green;
   width: 100%;
   height: 100%;
 }
@@ -20,8 +19,8 @@
 /*size design starts*/
 
 .size-circles {
-  border: 2px solid green;
-  display: flex;
+/*  border: 2px solid green;
+*/  display: flex;
   justify-content: space-between;
   width: 100%;
 }
@@ -79,16 +78,28 @@
 /*price design ends*/
 
 /*colours design starts*/
+.colour-wrapper {
+}
 
 .colour-btns {
-  border: 2px solid red;
+/*  border: 2px solid red;
+*/  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .btn-color-black {
-  padding: 10px;
+  padding: 15px;
   border-radius: 50%;
   background-color: black;
 }
 
+.btn-color-white {
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: white;
+}
 
 /*colours design ends*/
