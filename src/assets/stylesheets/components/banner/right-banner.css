@@ -19,8 +19,7 @@
 /*size design starts*/
 
 .size-circles {
-/*  border: 2px solid green;
-*/  display: flex;
+  display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 20px;
@@ -100,6 +99,17 @@
   border-radius: 50%;
   border: 1px solid grey;
   background-color: white;
+}
+
+.btn-color-black.selected {
+  border-style: solid;
+  border-width: 6px;
+  border-color: rgb(220, 220, 220);
+}
+
+.btn-color-white.selected {
+  border: 2px solid black;
+  box-shadow: 0 0 0 4px black inset;
 }
 
 /*colours design ends*/
