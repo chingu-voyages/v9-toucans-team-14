@@ -1,6 +1,10 @@
 .second-middle-navbar {
 /*  border: 2px solid red;
-*/  padding: 20px;
+*/
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
 
