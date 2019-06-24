@@ -1,0 +1,105 @@
+/*.right-banner {
+  justify-content: center;
+  align-items: center;
+}*/
+
+.right-banner {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  margin: 60px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*size design starts*/
+
+.size-circles {
+/*  border: 2px solid green;
+*/  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.circle {
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+
+}
+
+.circle.selected {
+  background-color: black;
+  color: white;
+}
+
+
+.circle.na {
+  border-color: rgb(180, 180, 180);
+  color: rgb(180, 180, 180);
+}
+
+/*size design ends*/
+
+
+/*reviews design starts*/
+
+.reviews-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(160,160,160);
+}
+
+.star-icons {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(160,160,160);
+}
+
+/*reviews design ends*/
+
+
+/* price design starts*/
+
+.price-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  color: rgb(160,160,160);
+}
+
+/*price design ends*/
+
+/*colours design starts*/
+.colour-wrapper {
+}
+
+.colour-btns {
+/*  border: 2px solid red;
+*/  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-color-black {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.btn-color-white {
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+/*colours design ends*/
