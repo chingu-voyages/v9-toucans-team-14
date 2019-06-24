@@ -1,0 +1,10 @@
+.size-circles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle {
+  padding: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
