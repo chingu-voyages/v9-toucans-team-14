@@ -40,7 +40,7 @@ export class SecondMiddle extends React.Component {
                 <FontAwesomeIcon icon="circle"  className="grey-circle" />
                 <FontAwesomeIcon icon="circle" className="grey-circle" />
               </div>
-              <p>$120</p>
+              <p>$450</p>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ export class SecondMiddle extends React.Component {
                 <FontAwesomeIcon icon="circle"  className="grey-circle" />
                 <FontAwesomeIcon icon="circle" className="grey-circle" />
               </div>
-              <p>$299</p>
+              <p>$300</p>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ export class SecondMiddle extends React.Component {
                 <FontAwesomeIcon icon="circle"  className="grey-circle" />
                 <FontAwesomeIcon icon="circle" className="grey-circle" />
               </div>
-              <p>$95</p>
+              <p>$210</p>
             </div>
           </div>
         </div>
