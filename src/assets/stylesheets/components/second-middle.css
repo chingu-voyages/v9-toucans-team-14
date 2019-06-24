@@ -1,8 +1,8 @@
 .second-middle-navbar {
 /*  border: 2px solid red;
 */
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -10,16 +10,16 @@
 
 }
 
-.add-to-cart-button {
-  padding: 10px 20px 10px 20px;
+.left-arrow-button {
+  padding: 10px 30px 10px 30px;
   background-color: black;
   color: white;
   text-decoration: none;
   font-weight: lighter;
 }
 
-.remove-to-cart-button {
-  padding: 10px 20px 10px 20px;
+.right-arrow-button {
+  padding: 10px 30px 10px 30px;
   color: black;
   text-decoration: none;
   font-weight: lighter;
@@ -57,7 +57,16 @@
   /*to stick the details at the bottom*/
   width: 100%;
   position: absolute;
-  bottom: 10px;
-  font-weight: lighter;
+  bottom: 30px;
   font-size: 14px;
+}
+
+.circle-wrapper {
+  width: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.grey-circle {
+  color: rgb(210, 210, 210);
 }

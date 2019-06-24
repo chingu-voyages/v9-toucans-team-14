@@ -10,10 +10,10 @@ export class SecondMiddle extends React.Component {
         <div className="second-middle-navbar">
           <h3>Style with &nbsp; &mdash;</h3>
           <div>
-            <a href="btn" class="add-to-cart-button">
+            <a href="btn" className="left-arrow-button">
               <FontAwesomeIcon icon="long-arrow-alt-left" />
             </a>
-            <a href="btn" className="remove-to-cart-button">
+            <a href="btn" className="right-arrow-button">
             <FontAwesomeIcon icon="long-arrow-alt-right" />
             </a>
           </div>
@@ -23,32 +23,48 @@ export class SecondMiddle extends React.Component {
           <div className="accessory-1">
             <img src="./images/second-middle/yellow-sunglasses.png" alt="" />
             <div className="accessory-details">
-              <p>$350</p>
-              <p>Reviews</p>
+              <div className="circle-wrapper">
+                <FontAwesomeIcon icon="circle"/>
+                <FontAwesomeIcon icon="circle"  className="grey-circle" />
+                <FontAwesomeIcon icon="circle" className="grey-circle" />
+              </div>
+              <p>$300</p>
             </div>
           </div>
 
           <div className="accessory-1">
             <img src="./images/second-middle/cropped-shirt.png" alt="" />
             <div className="accessory-details">
+              <div className="circle-wrapper">
+                <FontAwesomeIcon icon="circle"/>
+                <FontAwesomeIcon icon="circle"  className="grey-circle" />
+                <FontAwesomeIcon icon="circle" className="grey-circle" />
+              </div>
               <p>$120</p>
-              <p>Reviews</p>
             </div>
           </div>
 
           <div className="accessory-1">
             <img src="./images/second-middle/white-running.png" alt="" />
             <div className="accessory-details">
+              <div className="circle-wrapper">
+                <FontAwesomeIcon icon="circle"/>
+                <FontAwesomeIcon icon="circle"  className="grey-circle" />
+                <FontAwesomeIcon icon="circle" className="grey-circle" />
+              </div>
               <p>$299</p>
-              <p>Reviews</p>
             </div>
           </div>
 
           <div className="accessory-1">
             <img src="./images/second-middle/banana-bag.png" alt="" />
             <div className="accessory-details">
+              <div className="circle-wrapper">
+                <FontAwesomeIcon icon="circle"/>
+                <FontAwesomeIcon icon="circle"  className="grey-circle" />
+                <FontAwesomeIcon icon="circle" className="grey-circle" />
+              </div>
               <p>$95</p>
-              <p>Reviews</p>
             </div>
           </div>
         </div>
