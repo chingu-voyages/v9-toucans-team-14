@@ -8,13 +8,17 @@ import { Foot } from "./Foot";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faLongArrowAltLeft, faLongArrowAltRight, faCircle } from '@fortawesome/free-solid-svg-icons'
+import { faLongArrowAltLeft, faLongArrowAltRight, faCircle, faStar as fasStar } from '@fortawesome/free-solid-svg-icons'
+import { faStar as farStar } from '@fortawesome/free-regular-svg-icons'
+
 
 library.add(
    fab,
    faLongArrowAltLeft,
    faLongArrowAltRight,
    faCircle,
+   fasStar,
+   farStar,
 )
 
 export class App extends React.Component {

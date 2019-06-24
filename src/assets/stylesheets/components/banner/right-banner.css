@@ -1,10 +1,55 @@
+/*.right-banner {
+  justify-content: center;
+  align-items: center;
+}*/
+
+.wrapper {
+  border: 2px solid red;
+  margin: 60px;
+}
+
+/*size design start*/
+
 .size-circles {
+  border: 2px solid green;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .circle {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid black;
+
 }
+
+.circle.selected {
+  background-color: black;
+  color: white;
+}
+
+
+.circle.na {
+  border-color: rgb(180, 180, 180);
+  color: rgb(180, 180, 180);
+}
+
+/*size design end*/
+
+/*reviews design start*/
+
+.reviews-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(160,160,160);
+}
+
+.star-icons {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(160,160,160);
+}
+/*reviews design end*/
+
