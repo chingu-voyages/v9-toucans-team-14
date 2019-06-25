@@ -6,8 +6,6 @@ export class CenterBanner extends React.Component {
     return (
       <div className="center-banner">
         <img src={shoe1big1} alt="shoe image" />
-        <img src={shoe1big} alt="shoe image" />
-
       </div>
     );
   }
