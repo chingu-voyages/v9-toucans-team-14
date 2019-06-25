@@ -64,8 +64,8 @@ body {
 .top-kalli {
   background: #f5f5f5;
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  grid-template-columns: 300px repeat(2, 1fr);
   grid-template-areas:
     "lb cb rb"
     "lb cb rb"
@@ -76,11 +76,7 @@ body {
 /* left banner */
 .left-banner {
   grid-area: lb;
-  padding: 10px 0px 0px 10px;
-}
-
-.left-banner h3 {
-  padding-top: 5px;
+  padding: 20px 0px 0px 10px;
 }
 
 .left-banner h4 {
@@ -95,6 +91,10 @@ body {
   padding-top: 5px;
 }
 
+.left-banner p:first-of-type {
+  padding-top: 20px;
+}
+
 .small-images {
   padding-top: 20px;
 }
@@ -102,12 +102,13 @@ body {
 .small-images img {
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 5px;
-  width: 60px;
+  height: 30px;
+  margin: 2px;
+  width: 35px;
 }
 
 .small-images img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 191, 255, 0.8);
+  filter: brightness(0.87);
 }
 
 /* center banner */
@@ -116,8 +117,10 @@ body {
 }
 
 .center-banner img {
-  width: 100%;
+  filter: brightness(0.97);
   height: 100%;
+  padding: 10px 0px;
+  width: 100%;
 }
 
 /* right banner */
@@ -134,32 +137,59 @@ body {
   background: #f5f5f5;
   border: 1px solid #ddd;
   display: flex;
+  filter: brightness(1.1);
+  font-size: 10px;
+  font-weight: 700;
   justify-content: space-around;
-  padding: 20px 10px;
+  margin: 0px 20px;
+  padding: 10px;
 }
 
 .play-button {
   background: #f5f5f5;
   border: none;
+  font-weight: 700;
   text-transform: capitalize;
 }
 
-.heart {
-  width: 20px;
-  height: 20px;
+.play-button img {
+  filter: invert(60%);
+  padding: 0px 5px;
+  transform: translateY(20%);
 }
 
 .foot-arrow {
-  /* justify-self: space-around; */
   padding: 0px 10px;
+}
+
+.foot-arrow img {
+  padding: 0px 10px;
+  transform: translateY(50%);
+}
+
+.lines img {
+  padding: 0px 5px;
+  transform: translateY(40%);
+}
+
+.first-line,
+.third-line {
+  filter: invert(50%);
 }
 
 .add-cart {
   background: #282c34;
-  color: #f5f5f5;
+  color: #ddd;
   font-size: 10px;
   padding: 10px 20px;
   text-transform: uppercase;
+}
+
+.heart {
+  height: 20px;
+  transform: translateY(40%);
+  width: 20px;
+  margin: 0 25px;
 }
 
 /* Foot */
