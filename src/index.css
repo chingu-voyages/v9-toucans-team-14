@@ -153,9 +153,14 @@ body {
 }
 
 .play-button img {
+  cursor: pointer;
   filter: invert(60%);
   padding: 0px 5px;
   transform: translateY(20%);
+}
+
+.play-button:focus {
+  outline: 0 !important;
 }
 
 .foot-arrow {

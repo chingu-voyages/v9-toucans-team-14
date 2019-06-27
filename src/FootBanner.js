@@ -1,10 +1,14 @@
 import React from "react";
 export class FootBanner extends React.Component {
+  onClick() {
+    window.open("https://dribbble.com/shots/6575439-Kalli-UI-Kit-II", "_blank");
+  }
+
   render() {
     return (
       <div className="foot-banner">
         <div className="foot-button">
-          <button className="play-button">
+          <button className="play-button" onClick={this.onClick}>
             <img src="https://img.icons8.com/material/24/000000/circled-play.png" />
             play video
           </button>
