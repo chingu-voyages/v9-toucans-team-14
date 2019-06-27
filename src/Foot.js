@@ -24,68 +24,95 @@ export class Foot extends React.Component {
         </p>
 
         <li className="first-list lists">
-          <p className="sub-title">quick-links</p>
-          <a href="https://chingu.io" target="_blank">
-            > my account
+          <p className="sub-title">customer care</p>
+          <a
+            href="https://www.fendi.com/us/info/customer-care/contact-us"
+            target="_blank"
+          >
+            > contact us
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > order history
+          <a
+            href="https://www.fendi.com/us/info/customer-care/faq"
+            target="_blank"
+          >
+            > FAQs
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > my wishlist
+          <a
+            href="https://www.fendi.com/us/info/customer-care/shipping-and-delivery"
+            target="_blank"
+          >
+            > orders and shipping
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > order tracking
+          <a
+            href="https://www.fendi.com/us/info/customer-care/returns-and-refunds"
+            target="_blank"
+          >
+            > returns and refunds
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > gift vouchers
+          <a
+            href="https://www.fendi.com/us/info/customer-care/track-your-order"
+            target="_blank"
+          >
+            > track your order
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > checkout
+          <a
+            href="https://www.fendi.com/us/info/customer-care/return-form"
+            target="_blank"
+          >
+            > return form
           </a>
         </li>
 
         <li className="second-list lists">
-          <p className="sub-title">style advisor</p>
-          <a href="https://chingu.io" target="_blank">
-            > your account
+          <p className="sub-title">quick links</p>
+          <a href="https://www.fendi.com/us/login" target="_blank">
+            > login / register
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > additional information
+          <a href="https://www.fendi.com/us/login" target="_blank">
+            > fendi 4 for
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > discount
+          <a href="https://www.fendi.com/us/wishlist" target="_blank">
+            > wish list
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > orders history
+          <a href="https://www.fendi.com/us/store-locator" target="_blank">
+            > store locator
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > addresses
-          </a>
-          <a href="https://chingu.io" target="_blank">
-            > shipping informations
+          <a href="https://careers.fendi.com/" target="_blank">
+            > careers
           </a>
         </li>
 
         <li className="third-list lists">
-          <p className="sub-title">information</p>
-          <a href="https://chingu.io" target="_blank">
-            > about us
-          </a>
-          <a href="https://chingu.io" target="_blank">
-            > delivery information
-          </a>
-          <a href="https://chingu.io" target="_blank">
-            > terms & condtitions
-          </a>
-          <a href="https://chingu.io" target="_blank">
+          <p className="sub-title">legal area</p>
+          <a
+            href="https://www.fendi.com/us/info/legal-area/privacy-policy"
+            target="_blank"
+          >
             > privacy policy
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > contact us
+          <a
+            href="https://www.fendi.com/us/info/legal-area/cookie-policy"
+            target="_blank"
+          >
+            > cookie policy
           </a>
-          <a href="https://chingu.io" target="_blank">
-            > return policy
+          <a
+            href="https://www.fendi.com/us/info/legal-area/terms-sale"
+            target="_blank"
+          >
+            > terms & condtitions
+          </a>
+          <a
+            href="https://www.fendi.com/us/info/legal-area/terms-use"
+            target="_blank"
+          >
+            > website terms of use
+          </a>
+          <a
+            href="https://www.fendi.com/us/info/legal-area/compliance"
+            target="_blank"
+          >
+            > compliance
           </a>
         </li>
 
