@@ -1,4 +1,4 @@
-import React from "react";
+{/*import React from "react";
 import "./App.css";
 import "./assets/stylesheets/components/first-middle.css";
 
@@ -89,4 +89,4 @@ export class FirstMiddle extends React.Component {
       </div>
     );
   }
-}
+}/*}
