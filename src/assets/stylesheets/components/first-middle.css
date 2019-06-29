@@ -1,14 +1,11 @@
+
+/* Commenting these because it was affecting the other pages layout
 html {
     box-sizing: border-box;
     padding: 40px;
     justify-content: space-between;
 
 }
-
-/*.first-middle-black {
-  display: flex;
-  align-items: flex-end;
-}*/
 
 .first-middle-left-navbar {
     font-size: 30px;
@@ -36,7 +33,7 @@ h1 {
 }
 
 /*description section on the left*/
-.description {
+/*.description {
     float: left;
 }
 
@@ -50,13 +47,12 @@ img {
     height: 40px;
     border-radius: 50%;
     margin: 0 2em .5em 0;
-    /*shape-outside: ellipse(50% 50%);*/
     
 }
 
 
 /*number pages */
-.number-page {
+/*.number-page {
     text-align: end;
     font-size: 13px;
     font-weight: bold; 
@@ -70,7 +66,7 @@ img {
 }*/
 
 /*Socials */
-.fa-facebook,
+/*.fa-facebook,
 .fa-twitter,
 .fa-instagram {
     color: black;
@@ -89,9 +85,6 @@ img {
     opacity: 2;
 }
 
-/*.fa fa-twitter:hover {
-  color: light-blue;
-}*/
 .fa-twitter:hover {
     color: #55acee;
 }
@@ -106,11 +99,10 @@ img {
 
 li {
     list-style: none;
-    /*padding-right:*/
 }
 
 span:hover {
     cursor: pointer;
 }
-
+*/
 
