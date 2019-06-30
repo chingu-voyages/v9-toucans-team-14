@@ -51,7 +51,7 @@ img {
     border-radius: 50%;
     margin: 0 2em .5em 0;
     /*shape-outside: ellipse(50% 50%);*/
-    
+
 }
 
 
@@ -59,8 +59,8 @@ img {
 .number-page {
     text-align: end;
     font-size: 13px;
-    font-weight: bold; 
-    
+    font-weight: bold;
+
 }
 
 
