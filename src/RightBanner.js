@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "./assets/stylesheets/components/banner/right-banner.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { SizeButton } from "./SizeButton";
+import { SizeButton } from "./SizeButton";
 
 
 export class RightBanner extends React.Component {
@@ -13,12 +13,8 @@ export class RightBanner extends React.Component {
           <div>
             <p><strong>SIZE</strong></p>
           </div>
-          <div className="size-circles">
-            <p className="circle s37 selected"><strong>37</strong></p>
-            <p className="circle s38"><strong>38</strong></p>
-            <p className="circle s39"><strong>39</strong></p>
-            <p className="circle s40 na"><strong>40</strong></p>
-            <p className="circle s41"><strong>41</strong></p>
+          <div>
+            <SizeButton />
           </div>
         </div>
         <div className="reviews-wrapper">
