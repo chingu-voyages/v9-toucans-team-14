@@ -1,4 +1,4 @@
-{/*import React from "react";
+import React from "react";
 import "./App.css";
 import "./assets/stylesheets/components/first-middle.css";
 
@@ -11,7 +11,7 @@ export class FirstMiddle extends React.Component {
           <h3>Made of black <br></br>technical knit fabric</h3>
         </div>
         <div className = "first-middle-right-navbar" >
-          <h4>Reviews</h4> 
+          <h4>Reviews</h4>
           </div>
         <div className="left-description">
           <div className="description">
@@ -25,8 +25,8 @@ export class FirstMiddle extends React.Component {
           </div>
           </div>
           <div className="composition-box">
-          <div className="composition">  
-            <ul>  
+          <div className="composition">
+            <ul>
               <li>
                 <h4>Composition</h4>
                 <p>80% polyamide, 20% elastane,<br></br> 100% calf leather, inside: 100%<br></br> polyester.
@@ -63,7 +63,7 @@ export class FirstMiddle extends React.Component {
           <div>
             <ul>
               <li>
-                
+
                 <p className = "name-tag"><img src = "./images/first-middle/Lisa-Peters.jpg"
                 alt = ""
                 width = "28"
@@ -76,17 +76,17 @@ export class FirstMiddle extends React.Component {
         </div>
         <div className = "socials">
           <li>
-          <a href = "#" class="fa fa-facebook"></a> 
+          <a href = "#" class="fa fa-facebook"></a>
           <a href="#" class = "fa fa-twitter" ></a>
-          <a href = "#" class = "fa fa-instagram" ></a> 
-          </li> 
+          <a href = "#" class = "fa fa-instagram" ></a>
+          </li>
         </div>
         <div className = "next-buttons" >
-          <span className = "fa fa-long-arrow-left" ></span> 
+          <span className = "fa fa-long-arrow-left" ></span>
           <span className = "fa fa-long-arrow-right" ></span>
           <p className="number-page">45-50</p>
         </div>
       </div>
     );
   }
-}/*}
+}

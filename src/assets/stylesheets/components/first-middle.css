@@ -1,11 +1,9 @@
-
-/* Commenting these because it was affecting the other pages layout
-html {
+/*html {
     box-sizing: border-box;
     padding: 40px;
     justify-content: space-between;
 
-}
+}*/
 
 .first-middle-left-navbar {
     font-size: 30px;
@@ -32,8 +30,8 @@ h1 {
 
 }
 
-/*description section on the left*/
-/*.description {
+//**description section on the left*/
+.description {
     float: left;
 }
 
@@ -43,30 +41,30 @@ h3 {
 }
 
 img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 0 2em .5em 0;
-    
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 2em .5em 0;
 }
+    /*shape-outside: ellipse(50% 50%);
 
 
 /*number pages */
-/*.number-page {
+.number-page {
     text-align: end;
     font-size: 13px;
-    font-weight: bold; 
-    
+    font-weight: bold;
+
 }
 
 
-/*.first-middle-right-navbar {
+.first-middle-right-navbar {
     flex: 1;
     order: 1;
-}*/
+}
 
-/*Socials */
-/*.fa-facebook,
+Socials
+.fa-facebook,
 .fa-twitter,
 .fa-instagram {
     color: black;
@@ -104,5 +102,5 @@ li {
 span:hover {
     cursor: pointer;
 }
-*/
+
 
