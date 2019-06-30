@@ -5,11 +5,6 @@ html {
 
 }
 
-/*.first-middle-black {
-  display: flex;
-  align-items: flex-end;
-}*/
-
 .first-middle-left-navbar {
     font-size: 30px;
 }
@@ -35,7 +30,7 @@ h1 {
 
 }
 
-/*description section on the left*/
+//**description section on the left*/
 .description {
     float: left;
 }
@@ -46,13 +41,12 @@ h3 {
 }
 
 img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 0 2em .5em 0;
-    /*shape-outside: ellipse(50% 50%);*/
-
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 2em .5em 0;
 }
+    /*shape-outside: ellipse(50% 50%);
 
 
 /*number pages */
@@ -64,12 +58,12 @@ img {
 }
 
 
-/*.first-middle-right-navbar {
+.first-middle-right-navbar {
     flex: 1;
     order: 1;
-}*/
+}
 
-/*Socials */
+Socials
 .fa-facebook,
 .fa-twitter,
 .fa-instagram {
@@ -89,9 +83,6 @@ img {
     opacity: 2;
 }
 
-/*.fa fa-twitter:hover {
-  color: light-blue;
-}*/
 .fa-twitter:hover {
     color: #55acee;
 }
@@ -106,7 +97,6 @@ img {
 
 li {
     list-style: none;
-    /*padding-right:*/
 }
 
 span:hover {
