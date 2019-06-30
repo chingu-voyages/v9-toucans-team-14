@@ -1,8 +1,7 @@
 html {
-    box-sizing: border-box;
-    padding: 40px;
-    justify-content: space-between;
-
+  box-sizing: border-box;
+  padding: 40px;
+  justify-content: space-between;
 }
 
 /*.first-middle-black {
@@ -11,58 +10,52 @@ html {
 }*/
 
 .first-middle-left-navbar {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .first-middle-black {
-    display: grid;
-    grid-template-rows: auto 150px auto;
-    grid-template-columns: auto 350px;
-    grid-column-gap: 35px;
-    grid-row-gap: 20px;
-    justify-content: space-around;
-    padding: 75px;
+  display: grid;
+  grid-template-rows: auto 150px auto;
+  grid-template-columns: auto 350px;
+  grid-column-gap: 35px;
+  grid-row-gap: 20px;
+  justify-content: space-around;
+  padding: 75px;
 }
 
-
 h1 {
-    padding: 2em;
+  padding: 2em;
 }
 
 .description-wrapper {
-    padding: 2em;
-    display: flex;
-
+  padding: 2em;
+  display: flex;
 }
 
 /*description section on the left*/
 .description {
-    float: left;
+  float: left;
 }
 
 h3 {
-    width: auto;
-    margin: 0;
+  width: auto;
+  margin: 0;
 }
 
 img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 0 2em .5em 0;
-    /*shape-outside: ellipse(50% 50%);*/
-    
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 2em 0.5em 0;
+  /*shape-outside: ellipse(50% 50%);*/
 }
-
 
 /*number pages */
 .number-page {
-    text-align: end;
-    font-size: 13px;
-    font-weight: bold; 
-    
+  text-align: end;
+  font-size: 13px;
+  font-weight: bold;
 }
-
 
 /*.first-middle-right-navbar {
     flex: 1;
@@ -73,44 +66,42 @@ img {
 .fa-facebook,
 .fa-twitter,
 .fa-instagram {
-    color: black;
+  color: black;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 20px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
 .fa:hover {
-    opacity: 2;
+  opacity: 2;
 }
 
 /*.fa fa-twitter:hover {
   color: light-blue;
 }*/
 .fa-twitter:hover {
-    color: #55acee;
+  color: #55acee;
 }
 
 .fa-facebook:hover {
-    color: #3b5999;
+  color: #3b5999;
 }
 
 .fa-instagram:hover {
-    color: #e4405f;
+  color: #e4405f;
 }
 
 li {
-    list-style: none;
-    /*padding-right:*/
+  list-style: none;
+  /*padding-right:*/
 }
 
 span:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
-
