@@ -1,10 +1,9 @@
 import React from "react";
 import BlackShoeImages from "./BlackShoeImages";
-import shoe1small from "../src/assets/images/blackShoe/shoe1small.jpg";
-import shoe2small from "../src/assets/images/blackShoe/shoe2small.jpg";
-import shoe3small from "../src/assets/images/blackShoe/shoe3small.jpg";
-import shoe4small from "../src/assets/images/blackShoe/shoe4small.jpg";
-import shoe5small from "../src/assets/images/blackShoe/shoe5small.jpg";
+import WhiteShoeImages from "./WhiteShoeImages";
+import DarkBlueShoeImages from "./DarkBlueShoeImages";
+import RedShoeImages from "./RedShoeImages";
+import YellowShoeImages from "./YellowShoeImages";
 
 export class LeftBanner extends React.Component {
   render() {
@@ -17,12 +16,11 @@ export class LeftBanner extends React.Component {
         <p>elastic laces.</p>
 
         <div className="small-images">
-          <BlackShoeImages />
-          {/* <img src={shoe1small} alt="shoe image" />
-          <img src={shoe2small} alt="shoe image" />
-          <img src={shoe3small} alt="shoe image" />
-          <img src={shoe4small} alt="shoe image" />
-          <img src={shoe5small} alt="shoe image" /> */}
+          {/* <BlackShoeImages /> */}
+          {/* <WhiteShoeImages /> */}
+          {/* <DarkBlueShoeImages /> */}
+          {/* <RedShoeImages /> */}
+          <YellowShoeImages />
         </div>
       </div>
     );
