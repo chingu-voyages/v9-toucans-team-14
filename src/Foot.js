@@ -9,9 +9,7 @@ export class Foot extends React.Component {
       <div className="last-foot">
         <h3 className="section-title">kalli</h3>
 
-        <li className="social-media">
-          <Social />
-        </li>
+        <li className="social-media">{/* <Social /> */}</li>
 
         <p className="copyright-text sub-title">
           Copyright @2019 Made with <span> 💗 </span> by{" "}
