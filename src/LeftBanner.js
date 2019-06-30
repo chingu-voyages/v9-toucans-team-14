@@ -18,9 +18,9 @@ export class LeftBanner extends React.Component {
         <div className="small-images">
           {/* <BlackShoeImages /> */}
           {/* <WhiteShoeImages /> */}
-          {/* <DarkBlueShoeImages /> */}
+          <DarkBlueShoeImages />
           {/* <RedShoeImages /> */}
-          <YellowShoeImages />
+          {/* <YellowShoeImages /> */}
         </div>
       </div>
     );
