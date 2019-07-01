@@ -14,15 +14,6 @@ export class FootBanner extends React.Component {
             <p>play video</p>
           </button>
           <LeftRightArrow />
-          {/* <div className="foot-arrow">
-            <button onClick={this.onClickBack}>
-              <img src="https://img.icons8.com/small/22/000000/long-arrow-left.png" />
-            </button>
-
-            <button onClick={this.onClickForward}>
-              <img src="https://img.icons8.com/small/22/000000/long-arrow-right.png" />
-            </button>
-          </div> */}
           <div className="lines">
             <p>02</p>
             <img
