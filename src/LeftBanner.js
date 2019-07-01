@@ -1,9 +1,10 @@
 import React from "react";
 import BlackShoeImages from "./BlackShoeImages";
 import WhiteShoeImages from "./WhiteShoeImages";
-import DarkBlueShoeImages from "./DarkBlueShoeImages";
+
 import RedShoeImages from "./RedShoeImages";
-import YellowShoeImages from "./YellowShoeImages";
+import WhiteBrownShoeImages from "./WhiteBrownShoeImages";
+import BlackBrownShoeImages from "./BlackBrownShoeImages";
 
 export class LeftBanner extends React.Component {
   render() {
@@ -16,11 +17,12 @@ export class LeftBanner extends React.Component {
         <p>elastic laces.</p>
 
         <div className="small-images">
-          <BlackShoeImages />
-          {/* <WhiteShoeImages /> */}
-          {/* <DarkBlueShoeImages /> */}
+          {/* <BlackShoeImages /> */}
+          <WhiteShoeImages />
+
           {/* <RedShoeImages /> */}
-          {/* <YellowShoeImages /> */}
+          {/* <WhiteBrownShoeImages /> */}
+          {/* <BlackBrownShoeImages /> */}
         </div>
       </div>
     );
