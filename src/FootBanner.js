@@ -8,13 +8,18 @@ export class FootBanner extends React.Component {
     return (
       <div className="foot-banner">
         <div className="foot-button">
-            <button className="play-button" onClick={this.onClick}>
-              <img src="https://img.icons8.com/material/24/000000/circled-play.png" />
-              <p>play video</p>
-            </button>
+          <button className="play-button" onClick={this.onClick}>
+            <img src="https://img.icons8.com/material/24/000000/circled-play.png" />
+            <p>play video</p>
+          </button>
           <div className="foot-arrow">
-            <img src="https://img.icons8.com/small/22/000000/long-arrow-left.png" />
-            <img src="https://img.icons8.com/small/22/000000/long-arrow-right.png" />
+            <button onClick={this.onClickBack}>
+              <img src="https://img.icons8.com/small/22/000000/long-arrow-left.png" />
+            </button>
+
+            <button onClick={this.onClickForward}>
+              <img src="https://img.icons8.com/small/22/000000/long-arrow-right.png" />
+            </button>
           </div>
           <div className="lines">
             <p>02</p>
