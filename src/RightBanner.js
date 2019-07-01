@@ -37,16 +37,26 @@ export class RightBanner extends React.Component {
             <p><strong>$450</strong></p>
           </div>
         </div>
-        <div className="colour-wrapper">
+        <div className="colour-wrapper-set1">
           <p><strong>COLOUR</strong></p>
-          <div className="colour-btns">
+          <div className="colour-btns-set1">
             <a href="btn" className="btn-color-black selected">
             </a>
             <a href="btn" className="btn-color-white">
             </a>
           </div>
         </div>
-
+        <div className="colour-wrapper-set2">
+          <p><strong>COLOUR</strong></p>
+          <div className="colour-btns-set2">
+            <a href="btn" className="btn-color-red">
+            </a>
+            <a href="btn" className="btn-color-white-brown selected">
+            </a>
+            <a href="btn" className="btn-color-black-brown">
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
