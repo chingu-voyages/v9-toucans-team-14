@@ -1,18 +1,18 @@
 import React from "react";
-import shoe1small from "../src/assets/images/blackShoe/shoe1small.jpg";
-import shoe2small from "../src/assets/images/blackShoe/shoe2small.jpg";
-import shoe3small from "../src/assets/images/blackShoe/shoe3small.jpg";
-import shoe4small from "../src/assets/images/blackShoe/shoe4small.jpg";
-import shoe5small from "../src/assets/images/blackShoe/shoe5small.jpg";
+import blackSmall1 from "../src/assets/images/blackShoe/blackSmall1.jpg";
+import blackSmall2 from "../src/assets/images/blackShoe/blackSmall2.jpg";
+import blackSmall3 from "../src/assets/images/blackShoe/blackSmall3.jpg";
+import blackSmall4 from "../src/assets/images/blackShoe/blackSmall4.jpg";
+import blackSmall5 from "../src/assets/images/blackShoe/blackSmall5.jpg";
 
 export default function BlackShoeImages() {
   return (
     <div>
-      <img src={shoe1small} alt="shoe image" />
-      <img src={shoe2small} alt="shoe image" />
-      <img src={shoe3small} alt="shoe image" />
-      <img src={shoe4small} alt="shoe image" />
-      <img src={shoe5small} alt="shoe image" />
+      <img src={blackSmall1} alt="shoe image" />
+      <img src={blackSmall2} alt="shoe image" />
+      <img src={blackSmall3} alt="shoe image" />
+      <img src={blackSmall4} alt="shoe image" />
+      <img src={blackSmall5} alt="shoe image" />
     </div>
   );
 }
