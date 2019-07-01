@@ -40,6 +40,8 @@ body {
 
 .top-kalli {
   grid-area: top-section;
+  height: 100%;
+  position: relative;
 }
 
 .first-middle-black {
@@ -66,7 +68,7 @@ body {
   height: 550px;
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: 300px repeat (2, 1fr);
+  grid-template-columns: 400px 1fr 375px;
   grid-template-areas:
     "lb cb rb"
     "lb cb rb"
@@ -135,11 +137,14 @@ body {
 /* foot banner */
 .foot-banner {
   grid-area: fb;
+  display: flex;
+  justify-content: center;
 }
 
 .foot-button {
   background: #f5f5f5;
-  height: 100px;
+  height: 120px;
+  width: 90%;
   border: 1px solid #ddd;
   display: flex;
   align-items: center;
@@ -147,44 +152,78 @@ body {
   font-size: 10px;
   font-weight: 700;
   justify-content: space-around;
-  margin: 0px 60px 0px 60px;
+  position: absolute;
+  bottom: 0;
 }
 
 .play-button {
+  height: 43px;
+  width: 110px;
   background: #f5f5f5;
   border: none;
   font-weight: 700;
   text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .play-button img {
   cursor: pointer;
   filter: invert(60%);
-  padding: 0px 5px;
-  transform: translateY(20%);
+/*  padding: 0px 5px;
+*/
+/*  transform: translateY(20%);
+*/
+  height: 35px;
+  width: 35px;
+  margin: 0;
 }
 
-.play-button:focus {
+/*.play-button:focus {
   outline: 0 !important;
-}
+}*/
 
 .foot-arrow {
-  padding: 0px 10px;
+/*  padding: 0px 10px;
+*/
+  height: 43px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .foot-arrow img {
-  padding: 0px 10px;
-  transform: translateY(50%);
+ /* padding: 0px 10px;
+  transform: translateY(50%);*/
+  width: 30px;
+  height: 35px;
+  margin: 0;
+}
+
+.lines {
+  height: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
 }
 
 .lines img {
-  padding: 0px 5px;
-  transform: translateY(40%);
+  /*padding: 0px 5px;
+  transform: translateY(40%);*/
+  width: 30px;
 }
 
 .first-line,
 .third-line {
   filter: invert(50%);
+  margin:auto;
+}
+
+.second-line {
+  margin: auto;
 }
 
 .add-cart {
@@ -195,10 +234,17 @@ body {
   text-transform: uppercase;
 }
 
+.add-heart {
+  height: 43px;
+  display: flex;
+  align-items: center;
+
+}
+
 .heart {
   height: 20px;
-  transform: translateY(40%);
-  width: 20px;
+/*  transform: translateY(40%);
+*/  width: 20px;
   margin: 0 25px;
 }
 

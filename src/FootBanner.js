@@ -8,16 +8,16 @@ export class FootBanner extends React.Component {
     return (
       <div className="foot-banner">
         <div className="foot-button">
-          <button className="play-button" onClick={this.onClick}>
-            <img src="https://img.icons8.com/material/24/000000/circled-play.png" />
-            play video
-          </button>
+            <button className="play-button" onClick={this.onClick}>
+              <img src="https://img.icons8.com/material/24/000000/circled-play.png" />
+              <p>play video</p>
+            </button>
           <div className="foot-arrow">
             <img src="https://img.icons8.com/small/22/000000/long-arrow-left.png" />
             <img src="https://img.icons8.com/small/22/000000/long-arrow-right.png" />
           </div>
-          <p className="lines">
-            02
+          <div className="lines">
+            <p>02</p>
             <img
               className="first-line"
               src="https://img.icons8.com/ios-glyphs/22/000000/horizontal-line.png"
@@ -30,8 +30,8 @@ export class FootBanner extends React.Component {
               className="third-line"
               src="https://img.icons8.com/ios-glyphs/22/000000/horizontal-line.png"
             />
-            06
-          </p>
+            <p>06</p>
+          </div>
           <div className="add-heart">
             <button className="add-cart">add to cart</button>
             <img
