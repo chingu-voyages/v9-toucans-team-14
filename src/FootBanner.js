@@ -1,4 +1,5 @@
 import React from "react";
+import LeftRightArrow from "./LeftRightArrow";
 export class FootBanner extends React.Component {
   onClick() {
     window.open("https://dribbble.com/shots/6575439-Kalli-UI-Kit-II", "_blank");
@@ -12,7 +13,8 @@ export class FootBanner extends React.Component {
             <img src="https://img.icons8.com/material/24/000000/circled-play.png" />
             <p>play video</p>
           </button>
-          <div className="foot-arrow">
+          <LeftRightArrow />
+          {/* <div className="foot-arrow">
             <button onClick={this.onClickBack}>
               <img src="https://img.icons8.com/small/22/000000/long-arrow-left.png" />
             </button>
@@ -20,7 +22,7 @@ export class FootBanner extends React.Component {
             <button onClick={this.onClickForward}>
               <img src="https://img.icons8.com/small/22/000000/long-arrow-right.png" />
             </button>
-          </div>
+          </div> */}
           <div className="lines">
             <p>02</p>
             <img

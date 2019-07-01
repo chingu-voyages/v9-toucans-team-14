@@ -53,8 +53,17 @@ export class CenterBanner extends React.Component {
         <div>
           {/* <img src={this.state.imgList[this.state.index]} alt="" /> */}
           {/* <br /> */}
-          <button onClick={this.onClickBack}>Back</button>
-          <button onClick={this.onClickForward}>Forward</button>
+          {/* <button onClick={this.onClickBack}>Back</button>
+          <button onClick={this.onClickForward}>Forward</button> */}
+        </div>
+        <div>
+          <button onClick={this.onClickBack}>
+            <img src="https://img.icons8.com/small/22/000000/long-arrow-left.png" />
+          </button>
+
+          <button onClick={this.onClickForward}>
+            <img src="https://img.icons8.com/small/22/000000/long-arrow-right.png" />
+          </button>
         </div>
       </div>
     );
