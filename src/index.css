@@ -100,7 +100,6 @@ body {
 
 .small-images {
   padding-top: 20px;
-  transition: opacity 0.2s linear;
 }
 
 .small-images img {
@@ -108,7 +107,6 @@ body {
   border-radius: 5px;
   height: 60px;
   margin: 2px;
-
   width: 60px;
 }
 
@@ -174,22 +172,16 @@ body {
 .play-button img {
   cursor: pointer;
   filter: invert(60%);
-  /*  padding: 0px 5px;
-*/
-  /*  transform: translateY(20%);
-*/
   height: 35px;
   width: 35px;
   margin: 0;
 }
 
-/*.play-button:focus {
+.play-button:focus {
   outline: 0 !important;
-}*/
+}
 
 .foot-arrow {
-  /*  padding: 0px 10px;
-*/
   height: 43px;
   width: 80px;
   display: flex;
@@ -198,8 +190,6 @@ body {
 }
 
 .foot-arrow img {
-  /* padding: 0px 10px;
-  transform: translateY(50%);*/
   width: 30px;
   height: 35px;
   margin: 0;
@@ -214,8 +204,6 @@ body {
 }
 
 .lines img {
-  /*padding: 0px 5px;
-  transform: translateY(40%);*/
   width: 30px;
 }
 
@@ -245,8 +233,6 @@ body {
 
 .heart {
   height: 20px;
-  /*  transform: translateY(40%);
-*/
   width: 20px;
   margin: 0 25px;
 }
