@@ -58,16 +58,17 @@
 
 .left-description.desc {
   width: 475px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .composition-box.desc {
   width: 250px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .desc {
   padding-top: 20px;
+  line-height: 2;
 }
 
 .first-middle-right {
