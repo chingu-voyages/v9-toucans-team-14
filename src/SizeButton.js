@@ -3,16 +3,18 @@ import React from "react";
 export class SizeButton extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {clicked: false}
+
+    this.state = {
+      clicked: true,
+    }
   };
-
-
 
   handleClick = () => {
     this.setState({
-    clicked: !this.state.clicked,
-  });
+    clicked: !this.state.clicked
+    });
   }
+
 
   render() {
     return (
@@ -26,8 +28,8 @@ export class SizeButton extends React.Component {
             <p className={`circle s39 ${this.state.clicked ? 'selected' : null}`}
             onClick={this.handleClick}><strong>39</strong></p>
             <p className="circle s40 na"><strong>40</strong></p>
-            <p className="circle s41"><strong>41</strong></p>
+            <p onClick={this.handleClick} className="circle s41"><strong>41</strong></p>
       </div>
- );
+    );
   }
 }
