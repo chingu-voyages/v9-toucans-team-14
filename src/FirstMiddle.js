@@ -32,7 +32,7 @@ export class FirstMiddle extends React.Component {
 
             <div className="reviews">
               <div>
-                <img src="./images/first-middle/David-Heart2.jpg" alt="" />
+                <img className="profile-pic" src="./images/first-middle/David-Heart2.jpg" alt="" />
               </div>
               <div className="review-content">
                 <p>
@@ -46,7 +46,7 @@ export class FirstMiddle extends React.Component {
 
             <div className="reviews">
               <div>
-                <img src="./images/first-middle/Kim-North2.jpg" alt="" />
+                <img className="profile-pic" src="./images/first-middle/Kim-North2.jpg" alt="" />
               </div>
               <div className="review-content">
                 <p>
@@ -60,7 +60,7 @@ export class FirstMiddle extends React.Component {
 
             <div className="reviews">
               <div>
-                <img src="./images/first-middle/Lisa-Peters2.jpg" alt="" />
+                <img className="profile-pic" src="./images/first-middle/Lisa-Peters2.jpg" alt="" />
               </div>
               <div className="review-content">
                 <p>
