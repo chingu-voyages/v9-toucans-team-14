@@ -17,8 +17,8 @@ export class LeftBanner extends React.Component {
         <p>elastic laces.</p> */}
 
         <div className="small-images">
-          {/* <BlackShoeImages /> */}
-          <WhiteShoeImages />
+          <BlackShoeImages />
+          {/* <WhiteShoeImages /> */}
 
           {/* <RedShoeImages /> */}
           {/* <WhiteBrownShoeImages /> */}

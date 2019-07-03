@@ -140,7 +140,25 @@ body {
 
 /* Click-arrow */
 .click-arrow {
-  grid-area: ca;
+  /* grid-area: ca; */
+  position: absolute;
+  transform: translateY(150px);
+}
+
+.click-arrow button {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 0 10px;
+}
+
+.click-arrow button:focus {
+  outline: 0 !important;
+}
+
+.click-arrow img {
+  width: 30px;
+  height: 45px;
+  /* margin: 0; */
 }
 
 /* foot banner */

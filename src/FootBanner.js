@@ -28,7 +28,7 @@ export class FootBanner extends React.Component {
               className="third-line"
               src="https://img.icons8.com/ios-glyphs/22/000000/horizontal-line.png"
             />
-            <p>06</p>
+            <p>05</p>
           </div>
           <div className="add-heart">
             <button className="add-cart">add to cart</button>

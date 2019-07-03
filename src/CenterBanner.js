@@ -1,8 +1,8 @@
 import React from "react";
-import blackLarge1C from "../src/assets/images/blackShoe/blackLarge1C.jpg";
-import BlackShoeImages from "./BlackShoeImages";
+/* import blackLarge1C from "../src/assets/images/blackShoe/blackLarge1C.jpg";
+import BlackShoeImages from "./BlackShoeImages"; */
 // import whiteLarge1C from "../src/assets/images/whiteShoe/whiteLarge1C.jpg";
-// import BlackShoeImages from './BlackShoeImages';
+// import BlackShoeImages from "./BlackShoeImages";
 
 export class CenterBanner extends React.Component {
   constructor() {
