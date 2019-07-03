@@ -32,42 +32,42 @@ export class FirstMiddle extends React.Component {
 
             <div className="reviews">
               <div>
-                <img src="./images/first-middle/David-Heart.jpg" alt="" />
+                <img src="./images/first-middle/David-Heart2.jpg" alt="" />
               </div>
               <div className="review-content">
                 <p>
                   <strong>David Heart</strong> - June 06, 2019
                 </p>
                 <p>
-                  Blogging twice a week, catching up with other people 's writing getting back to...
+                  Sneakers transform your body language and attitude. They lift you physically and emotionally.
                 </p>
               </div>
             </div>
 
             <div className="reviews">
               <div>
-                <img src="./images/first-middle/Kim-North.jpg" alt="" />
+                <img src="./images/first-middle/Kim-North2.jpg" alt="" />
               </div>
               <div className="review-content">
                 <p>
                   <strong>Kim North</strong> - May 15, 2019
                 </p>
                 <p>
-                  I went through a rollercoaster of contradictory emotions: skepticism...
+                  I firmly believe that with the right footwear one can rule the world.
                 </p>
               </div>
             </div>
 
             <div className="reviews">
               <div>
-                <img src="./images/first-middle/Lisa-Peters.jpg" alt="" />
+                <img src="./images/first-middle/Lisa-Peters2.jpg" alt="" />
               </div>
               <div className="review-content">
                 <p>
                   <strong>Lisa Peters</strong> - January 21, 2019
                 </p>
                 <p>
-                  Realization, happiness, guilt, elation, excitement, curiosity.I remember you.
+                  Craziness in a shoe is great – you can have much more freedom, you can exaggerate and it doesn’t feel stupid. But to have too much craziness near your face, that would just feel weird.
                 </p>
               </div>
             </div>
