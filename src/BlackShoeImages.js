@@ -13,27 +13,33 @@ import blackLarge5 from "../src/assets/images/blackShoe/blackLarge5.jpg";
 
 export default function BlackShoeImages() {
   return (
-    <div>
-      <a href={blackLarge1C} target="_blank">
-        <img src={blackSmall1} alt="shoe image" />
-      </a>
-      <a href={blackLarge2C} target="_blank">
-        <img src={blackSmall2} alt="shoe image" />
-      </a>
-      <a href={blackLarge3C} target="_blank">
-        <img src={blackSmall3} alt="shoe image" />
-      </a>
-      <a href={blackLarge4C} target="_blank">
-        <img src={blackSmall4} alt="shoe image" />
-      </a>
-      <a href={blackLarge5} target="_blank">
-        <img src={blackSmall5} alt="shoe image" />
-      </a>
-      {/* <img src={blackSmall1} alt="shoe image" />
+    <div className="left-banner">
+      <h3>Black technical</h3>
+      <h3>knit fabric high-tops</h3>
+      <p>Running sneakers with thin</p>
+      <p>elastic laces.</p>
+      <div className="small-images">
+        <a href={blackLarge1C} target="_blank">
+          <img src={blackSmall1} alt="shoe image" />
+        </a>
+        <a href={blackLarge2C} target="_blank">
+          <img src={blackSmall2} alt="shoe image" />
+        </a>
+        <a href={blackLarge3C} target="_blank">
+          <img src={blackSmall3} alt="shoe image" />
+        </a>
+        <a href={blackLarge4C} target="_blank">
+          <img src={blackSmall4} alt="shoe image" />
+        </a>
+        <a href={blackLarge5} target="_blank">
+          <img src={blackSmall5} alt="shoe image" />
+        </a>
+        {/* <img src={blackSmall1} alt="shoe image" />
       <img src={blackSmall2} alt="shoe image" />
       <img src={blackSmall3} alt="shoe image" />
       <img src={blackSmall4} alt="shoe image" />
       <img src={blackSmall5} alt="shoe image" /> */}
+      </div>
     </div>
   );
 }
