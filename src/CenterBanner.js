@@ -1,6 +1,8 @@
 import React from "react";
 import blackLarge1C from "../src/assets/images/blackShoe/blackLarge1C.jpg";
+import BlackShoeImages from "./BlackShoeImages";
 // import whiteLarge1C from "../src/assets/images/whiteShoe/whiteLarge1C.jpg";
+// import BlackShoeImages from './BlackShoeImages';
 
 export class CenterBanner extends React.Component {
   constructor() {
@@ -47,6 +49,7 @@ export class CenterBanner extends React.Component {
   render() {
     return (
       <div className="center-banner">
+        <div>{/* <BlackShoeImages /> */}</div>
         {/* <img src={blackLarge1C} alt="shoe image" /> */}
         {/* <img src={whiteLarge1C} alt="shoe image" /> */}
         <img src={this.state.imgList[this.state.index]} alt="" />
@@ -56,7 +59,7 @@ export class CenterBanner extends React.Component {
           {/* <button onClick={this.onClickBack}>Back</button>
           <button onClick={this.onClickForward}>Forward</button> */}
         </div>
-        <div>
+        <div className="click-arrow">
           <button onClick={this.onClickBack}>
             <img src="https://img.icons8.com/small/22/000000/long-arrow-left.png" />
           </button>

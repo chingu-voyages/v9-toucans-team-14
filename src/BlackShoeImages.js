@@ -9,19 +9,31 @@ import blackLarge2C from "../src/assets/images/blackShoe/blackLarge2C.jpg";
 import blackLarge3C from "../src/assets/images/blackShoe/blackLarge3C.jpg";
 import blackLarge4C from "../src/assets/images/blackShoe/blackLarge4C.jpg";
 import blackLarge5 from "../src/assets/images/blackShoe/blackLarge5.jpg";
-import { CenterBanner } from "./CenterBanner";
+// import { CenterBanner } from "./CenterBanner";
 
 export default function BlackShoeImages() {
   return (
     <div>
-      <a href={blackLarge1C} target={CenterBanner}>
+      <a href={blackLarge1C} target="_blank">
         <img src={blackSmall1} alt="shoe image" />
       </a>
-      {/* <img src={blackSmall1} alt="shoe image" /> */}
+      <a href={blackLarge2C} target="_blank">
+        <img src={blackSmall2} alt="shoe image" />
+      </a>
+      <a href={blackLarge3C} target="_blank">
+        <img src={blackSmall3} alt="shoe image" />
+      </a>
+      <a href={blackLarge4C} target="_blank">
+        <img src={blackSmall4} alt="shoe image" />
+      </a>
+      <a href={blackLarge5} target="_blank">
+        <img src={blackSmall5} alt="shoe image" />
+      </a>
+      {/* <img src={blackSmall1} alt="shoe image" />
       <img src={blackSmall2} alt="shoe image" />
       <img src={blackSmall3} alt="shoe image" />
       <img src={blackSmall4} alt="shoe image" />
-      <img src={blackSmall5} alt="shoe image" />
+      <img src={blackSmall5} alt="shoe image" /> */}
     </div>
   );
 }

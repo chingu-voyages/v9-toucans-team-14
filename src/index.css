@@ -107,12 +107,14 @@ body {
   border-radius: 5px;
   height: 60px;
   margin: 2px;
+  opacity: 0.5;
   width: 60px;
 }
 
 .small-images img:hover {
   cursor: pointer;
   filter: brightness(0.87);
+  opacity: 1;
 }
 
 /* center banner */
@@ -133,6 +135,11 @@ body {
 /* right banner */
 .right-banner {
   grid-area: rb;
+}
+
+/* Click-arrow */
+.click-arrow {
+  grid-area: ca;
 }
 
 /* foot banner */
