@@ -32,7 +32,7 @@ export class FirstMiddle extends React.Component {
 
             <div className="reviews">
               <div>
-                <img className="profile-pic" src="./images/first-middle/David-Heart2.jpg" alt="" />
+                <img className="profile-pic david" src="./images/first-middle/David-Heart2.jpg" alt="" />
               </div>
               <div className="review-content">
                 <p>

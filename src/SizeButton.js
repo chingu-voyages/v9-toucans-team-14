@@ -15,17 +15,16 @@ export class SizeButton extends React.Component {
     });
   }
 
-
   render() {
     return (
       <div className="size-circles">
             <p className={`circle s37 ${this.state.clicked ? 'selected': null}`}
             onClick={this.handleClick}>
             <strong>37</strong></p>
-            <p className={`circle s38 ${this.state.clicked ? 'selected' : null}`}
+            <p className="circle s38"
             onClick={this.handleClick}>
             <strong>38</strong></p>
-            <p className={`circle s39 ${this.state.clicked ? 'selected' : null}`}
+            <p className="circle s39"
             onClick={this.handleClick}><strong>39</strong></p>
             <p className="circle s40 na"><strong>40</strong></p>
             <p onClick={this.handleClick} className="circle s41"><strong>41</strong></p>

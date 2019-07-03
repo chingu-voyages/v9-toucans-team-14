@@ -130,16 +130,21 @@ h3 {
   border-radius: 50%;
   object-fit: cover;
   object-position: 100% 0;
-/*  margin: 0 2em 0.5em 0;
-*/}
+}
 /*shape-outside: ellipse(50% 50%);
+*/
 
-/*number pages */
+.profile-pic.david {
+  object-position: 50% 0;
+
+}
+
+/*number pages
 .number-page {
   /* text-align: end; */
-  font-size: 13px;
+  /*font-size: 13px;
   font-weight: bold;
-}
+}*/
 
 /*.first-middle-right-navbar {
    flex: 1;
