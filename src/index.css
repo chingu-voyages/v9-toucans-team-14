@@ -128,9 +128,16 @@ body {
 
 .center-banner img {
   filter: brightness(0.97);
-  height: 90%;
-  padding: 10px 0px;
-  width: 90%;
+  object-fit: contain;
+  object-position: 100% 0;
+  height: 100%;
+/*  padding: 10px 0px;
+*/width: 100%;
+}
+
+.big-picture {
+  width: 600px;
+  height: 320px;
 }
 
 /* right banner */
