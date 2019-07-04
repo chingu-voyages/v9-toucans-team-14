@@ -6,6 +6,79 @@ import { SizeButton } from "./SizeButton";
 
 
 export class RightBanner extends React.Component {
+
+    constructor(props) {
+    super(props);
+
+    this.state = {
+      buttons: [
+        {
+          id: 1,
+          name: 'circle s37',
+          clicked: true
+        },
+        {
+          id: 2,
+          name: 'circle s38',
+          clicked: false
+        },
+        {
+          id: 3,
+          name: 'circle s39',
+          clicked: false
+        },
+        {
+          id: 4,
+          name: 'circle s40',
+          clicked: false
+        },
+        {
+          id: 4,
+          name: 'circle s41',
+          clicked: false
+        },
+      ]
+    };
+  }
+
+  handleClicked(id) {
+    this.setState(prevState => {
+      const buttons = prevState.buttons.map(
+        (button) => {
+          if (button.id === id) {
+            return { ...button, clicked: true }
+          }
+
+          return { ...button, clicked: false }
+        }
+      );
+
+      // same as { buttons: buttons }
+      return { buttons }
+    })
+  }
+
+//   /**
+//    * Getter method, Read Only
+//    */
+  get buttons() {
+    const { buttons } = this.state;
+
+    return buttons.map(
+      ({ name, clicked, id}) => (
+        <SizeButton
+          key={id}
+          clicked={clicked}
+          onClick={
+            () => this.handleClicked(id)
+          }
+        >
+          {name}
+        </SizeButton>
+      )
+    )
+  }
+
   render() {
     return (
       <div className="wrapper">
@@ -14,7 +87,7 @@ export class RightBanner extends React.Component {
             <p><strong>SIZE</strong></p>
           </div>
           <div>
-            <SizeButton />
+            <SizeButton buttons={this.buttons}/>
           </div>
         </div>
         <div className="reviews-wrapper">
@@ -61,3 +134,83 @@ export class RightBanner extends React.Component {
     );
   }
 }
+
+
+// class App extends Component {
+//   constructor(props) {
+//     super(props);
+
+//     this.state = {
+//       buttons: [
+//         {
+//           id: 1,
+//           name: 'Button 1',
+//           clicked: true
+//         },
+//         {
+//           id: 2,
+//           name: 'Button 2',
+//           clicked: false
+//         },
+//         {
+//           id: 3,
+//           name: 'Button 3',
+//           clicked: false
+//         },
+//         {
+//           id: 4,
+//           name: 'Button 4',
+//           clicked: false
+//         },
+//       ]
+//     };
+//   }
+
+//   handleClicked(id) {
+//     this.setState(prevState => {
+//       const buttons = prevState.buttons.map(
+//         (button) => {
+//           if (button.id === id) {
+//             return { ...button, clicked: true }
+//           }
+
+//           return { ...button, clicked: false }
+//         }
+//       );
+
+//       // same as { buttons: buttons }
+//       return { buttons }
+//     })
+//   }
+
+//   /**
+//    * Getter method, Read Only
+//    */
+//   get buttons() {
+//     const { buttons } = this.state;
+
+//     return buttons.map(
+//       ({ name, clicked, id}) => (
+//         <Button
+//           key={id}
+//           clicked={clicked}
+//           onClick={
+//             () => this.handleClicked(id)
+//           }
+//         >
+//           {name}
+//         </Button>
+//       )
+//     )
+//   }
+
+//   render() {
+//     return(
+//       <div>
+//         {this.buttons}
+//       </div>
+//     );
+//   }
+// }
+
+
