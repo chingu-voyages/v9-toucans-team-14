@@ -12,27 +12,27 @@ export class RightBanner extends React.Component {
       buttons: [
         {
           id: 1,
-          name: 's37',
+          name: '37',
           clicked: true
         },
         {
           id: 2,
-          name: 's38',
+          name: '38',
           clicked: false
         },
         {
           id: 3,
-          name: 's39',
+          name: '39',
           clicked: false
         },
         {
           id: 4,
-          name: 's40',
+          name: '40',
           clicked: false
         },
         {
           id: 5,
-          name: 's41',
+          name: '41',
           clicked: false
         }
       ]
