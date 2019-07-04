@@ -52,7 +52,9 @@ export class CenterBanner extends React.Component {
         <div>{/* <BlackShoeImages /> */}</div>
         {/* <img src={blackLarge1C} alt="shoe image" /> */}
         {/* <img src={whiteLarge1C} alt="shoe image" /> */}
-        <img src={this.state.imgList[this.state.index]} alt="" />
+        <div className="big-picture">
+          <img src={this.state.imgList[this.state.index]} alt="" />
+        </div>
         <div>
           {/* <img src={this.state.imgList[this.state.index]} alt="" /> */}
           {/* <br /> */}
