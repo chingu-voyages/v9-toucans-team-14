@@ -1,5 +1,32 @@
 import React from "react";
 
+export class SizeButton extends React.Component {
+  get classNames() {
+    if (this.props.clicked) {
+      return 'selected'
+    }
+
+    return ""
+  }
+
+  render() {
+    const { children, onClick } = this.props;
+    return (
+
+      <div className={`size-circles ${this.classNames}`}
+          type="button"
+          onClick={onClick}>
+          {children}
+          <a href="#" className="circle s37"><strong>37</strong></a>
+          <a href="#" className="circle s38"><strong>38</strong></a>
+          <a href="#" className="circle s39"><strong>39</strong></a>
+          <a href="#" className="circle s40 na"><strong>40</strong></a>
+          <a href="#" className="circle s41"><strong>41</strong></a>
+     </div>
+    );
+  }
+}
+
 // export class SizeButton extends React.Component {
 //   constructor(props) {
 //     super(props);
@@ -39,107 +66,3 @@ import React from "react";
 // import React, { Component } from 'react';
 
 // const { Component } = React;
-
-export class SizeButton extends React.Component {
-  get classNames() {
-    if (this.props.clicked) {
-      return 'selected'
-    }
-
-    return ""
-  }
-
-  render() {
-    const { children, onClick } = this.props;
-    return (
-
-      <div className={`size-circles ${this.classNames}`}
-          type="button"
-          onClick={onClick}>
-          {children}
-          <a href="#" className="circle s37"><strong>37</strong></a>
-          <a href="#" className="circle s38"><strong>38</strong></a>
-          <a href="#" className="circle s39"><strong>39</strong></a>
-          <a href="#" className="circle s40 na"><strong>40</strong></a>
-          <a href="#" className="circle s41"><strong>41</strong></a>
-     </div>
-    );
-  }
-}
-
-// class App extends Component {
-//   constructor(props) {
-//     super(props);
-
-//     this.state = {
-//       buttons: [
-//         {
-//           id: 1,
-//           name: 'Button 1',
-//           clicked: true
-//         },
-//         {
-//           id: 2,
-//           name: 'Button 2',
-//           clicked: false
-//         },
-//         {
-//           id: 3,
-//           name: 'Button 3',
-//           clicked: false
-//         },
-//         {
-//           id: 4,
-//           name: 'Button 4',
-//           clicked: false
-//         },
-//       ]
-//     };
-//   }
-
-//   handleClicked(id) {
-//     this.setState(prevState => {
-//       const buttons = prevState.buttons.map(
-//         (button) => {
-//           if (button.id === id) {
-//             return { ...button, clicked: true }
-//           }
-
-//           return { ...button, clicked: false }
-//         }
-//       );
-
-//       // same as { buttons: buttons }
-//       return { buttons }
-//     })
-//   }
-
-//   /**
-//    * Getter method, Read Only
-//    */
-//   get buttons() {
-//     const { buttons } = this.state;
-
-//     return buttons.map(
-//       ({ name, clicked, id}) => (
-//         <Button
-//           key={id}
-//           clicked={clicked}
-//           onClick={
-//             () => this.handleClicked(id)
-//           }
-//         >
-//           {name}
-//         </Button>
-//       )
-//     )
-//   }
-
-//   render() {
-//     return(
-//       <div>
-//         {this.buttons}
-//       </div>
-//     );
-//   }
-// }
