@@ -1,36 +1,22 @@
-import React from "react";
+import React from 'react';
 
 export class SizeButton extends React.Component {
-  constructor(props) {
-    super(props);
+  get classNames() {
+    const { clicked, name } = this.props;
 
-    this.state = {
-      clicked: true,
+    if (clicked) {
+      return `circle ${name} selected`;
     }
-  };
 
-  handleClick = () => {
-    this.setState({
-    clicked: !this.state.clicked
-    });
+    return `circle ${name}`;
   }
 
   render() {
+    const { onClick, name } = this.props;
     return (
-      <div className="size-circles">
-            <p className={`circle s37 ${this.state.clicked ? null : 'selected'}`}
-            onClick={this.handleClick}>
-            <strong>37</strong></p>
-            <p className="circle s38"
-            onClick={this.handleClick}>
-            <strong>38</strong></p>
-            <p className="circle s39"
-            onClick={this.handleClick}><strong>39</strong></p>
-            <p className="circle s40 na"
-            OnClick={this.handleClick}><strong>40</strong></p>
-            <p className="circle s41"
-            onClick={this.handleClick} ><strong>41</strong></p>
-      </div>
+      <button type="button" className={this.classNames} onClick={onClick}>
+        {name}
+      </button>
     );
   }
 }
