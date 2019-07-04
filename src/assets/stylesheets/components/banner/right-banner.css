@@ -24,20 +24,19 @@
   margin-top: 20px;
 }
 
-a.circle {
+.circle {
+  background-color: transparent;
   padding: 15px;
   border-radius: 50%;
   border: 1px solid black;
   text-decoration: none;
   color: black;
-
 }
 
 .circle.selected {
   background-color: black;
   color: white;
 }
-
 
 .circle.na {
   border-color: rgb(180, 180, 180);
@@ -46,24 +45,22 @@ a.circle {
 
 /*size design ends*/
 
-
 /*reviews design starts*/
 
 .reviews-wrapper {
   display: flex;
   justify-content: space-between;
-  color: rgb(160,160,160);
+  color: rgb(160, 160, 160);
 }
 
 .star-icons {
   width: 120px;
   display: flex;
   justify-content: space-between;
-  color: rgb(160,160,160);
+  color: rgb(160, 160, 160);
 }
 
 /*reviews design ends*/
-
 
 /* price design starts*/
 
@@ -73,7 +70,7 @@ a.circle {
 }
 
 .price {
-  color: rgb(160,160,160);
+  color: rgb(160, 160, 160);
 }
 
 /*price design ends*/
@@ -121,8 +118,9 @@ a.circle {
 /*colours set2*/
 
 .colour-wrapper-set2 {
-/*  display: none;
-*/}
+  /*  display: none;
+*/
+}
 
 .colour-btns-set2 {
   width: 40%;
@@ -143,14 +141,28 @@ a.circle {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
-  background: linear-gradient( -45deg, #8F521D, #8F521D 49%, grey 49%, grey 51%, white 51% );
+  background: linear-gradient(
+    -45deg,
+    #8f521d,
+    #8f521d 49%,
+    grey 49%,
+    grey 51%,
+    white 51%
+  );
 }
 
 .btn-color-black-brown {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
-  background: linear-gradient( -45deg, #8F521D, #8F521D 49%, white 49%, white 51%, black 51% );
+  background: linear-gradient(
+    -45deg,
+    #8f521d,
+    #8f521d 49%,
+    white 49%,
+    white 51%,
+    black 51%
+  );
 }
 
 .btn-color-red.selected {
