@@ -24,10 +24,12 @@
   margin-top: 20px;
 }
 
-.circle {
+a.circle {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid black;
+  text-decoration: none;
+  color: black;
 
 }
 
