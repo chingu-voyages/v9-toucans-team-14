@@ -40,6 +40,7 @@ export class RightBanner extends React.Component {
   }
 
   handleClicked(id) {
+    // setState for sizebuttons
     this.setState(prevState => {
       const sizebuttons = prevState.sizebuttons.map(sizebutton => {
         if (sizebutton.id === id) {
@@ -112,7 +113,7 @@ export class RightBanner extends React.Component {
             <strong>COLOUR</strong>
           </p>
           <div className="colour-btns-set1">
-            <a href="btn" className="btn-color-black selected" />
+            <a href="btn" className="btn-color-black active" />
             <a href="btn" className="btn-color-white" />
           </div>
         </div>

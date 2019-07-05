@@ -5,7 +5,7 @@ export class ColorButton extends React.component {
     const { clicked, name } = this.props;
 
     if (clicked) {
-      return `btn-color-{$name} selected`;
+      return `btn-color-{$name} active`;
     }
 
     return `btn-color-{$name}`;
