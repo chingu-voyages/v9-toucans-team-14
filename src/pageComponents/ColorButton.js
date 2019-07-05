@@ -2,23 +2,23 @@ import React from 'react';
 
 export class ColorButton extends React.Component {
   get classNames() {
-    const { clicked, name } = this.props;
+    const { clicked, id } = this.props;
 
     if (clicked) {
-      return `black btn active ${name}`;
-      return `white btn ${name}`;
+      return `color-btn black active ${id}`;
+      return `color-btn white active ${id}`;
 
     }
 
-    return `black btn ${name}`;
-    return `white btn ${name}`;
+    return `color-btn black ${id}`;
+    return `color-btn white ${id}`;
   }
 
   render() {
-    const { onClick, name } = this.props;
+    const { onClick, id } = this.props;
     return (
       <button type="button" className={this.classNames} onClick={onClick}>
-        {name}
+        {id}
       </button>
 
     );
