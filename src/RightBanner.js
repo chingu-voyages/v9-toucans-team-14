@@ -2,78 +2,12 @@ import React from 'react';
 import './App.css';
 import './assets/stylesheets/components/banner/right-banner.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { SizeButton } from './SizeButton';
 import { SizeButtons } from './SizeButtons';
 
 // import { ColorButton } from './ColorButton';
 
 
 export class RightBanner extends React.Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.state = {
-  //     sizebuttons: [
-  //       {
-  //         id: 1,
-  //         name: '37',
-  //         clicked: true
-  //       },
-  //       {
-  //         id: 2,
-  //         name: '38',
-  //         clicked: false
-  //       },
-  //       {
-  //         id: 3,
-  //         name: '39',
-  //         clicked: false
-  //       },
-  //       {
-  //         id: 4,
-  //         name: '40',
-  //         clicked: false
-  //       },
-  //       {
-  //         id: 5,
-  //         name: '41',
-  //         clicked: false
-  //       }
-  //     ]
-  //   };
-  // }
-
-  // handleClicked(id) {
-  //   // setState for sizebuttons
-  //   this.setState(prevState => {
-  //     const sizebuttons = prevState.sizebuttons.map(sizebutton => {
-  //       if (sizebutton.id === id) {
-  //         return { ...sizebutton, clicked: true };
-  //       }
-
-  //       return { ...sizebutton, clicked: false };
-  //     });
-
-  //     // same as { buttons: buttons }
-  //     return { sizebuttons };
-  //   });
-  // }
-
-  // /**
-  //  * Getter method, Read Only
-  //  */
-  // get sizebuttons() {
-  //   const { sizebuttons } = this.state;
-
-  //   return sizebuttons.map(({ name, clicked, id }) => (
-  //     <SizeButton
-  //       key={id}
-  //       name={name}
-  //       clicked={clicked}
-  //       onClick={() => this.handleClicked(id)}
-  //     />
-  //   ));
-  // }
 
   render() {
     return (
