@@ -3,8 +3,7 @@ import './App.css';
 import './assets/stylesheets/components/banner/right-banner.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SizeButtons } from './SizeButtons';
-
-// import { ColorButton } from './ColorButton';
+import { ColorButtons } from './ColorButtons';
 
 
 export class RightBanner extends React.Component {
@@ -50,10 +49,7 @@ export class RightBanner extends React.Component {
           <p>
             <strong>COLOUR</strong>
           </p>
-          <div className="colour-btns-set1">
-            <a href="btn" className="btn-color-black active" />
-            <a href="btn" className="btn-color-white" />
-          </div>
+            <ColorButtons />
         </div>
         <div className="colour-wrapper-set2">
           <p>

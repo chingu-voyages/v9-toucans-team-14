@@ -93,26 +93,26 @@
   margin-top: 20px;
 }
 
-.btn-color-black {
+.btn-color.black {
   padding: 15px;
   border-radius: 50%;
   background-color: black;
 }
 
-.btn-color-white {
+.btn-color.white {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
   background-color: white;
 }
 
-.btn-color-black.active {
+.btn-color.black.active {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
 }
 
-.btn-color-white.active {
+.btn-color.white.active {
   border: 2px solid black;
   box-shadow: 0 0 0 4px black inset;
 }
