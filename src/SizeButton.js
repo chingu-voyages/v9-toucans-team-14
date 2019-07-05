@@ -3,7 +3,7 @@ import React from "react";
 export class SizeButton extends React.Component {
   get classNames() {
     if (this.props.clicked) {
-      return 'selected'
+      return "selected"
     }
 
     return ""
@@ -12,17 +12,28 @@ export class SizeButton extends React.Component {
   render() {
     const { children, onClick } = this.props;
     return (
-
-      <div className={`size-circles ${this.classNames}`}
-          type="button"
-          onClick={onClick}>
-          {children}
-          <a href="#" className="circle s37"><strong>37</strong></a>
-          <a href="#" className="circle s38"><strong>38</strong></a>
-          <a href="#" className="circle s39"><strong>39</strong></a>
-          <a href="#" className="circle s40 na"><strong>40</strong></a>
-          <a href="#" className="circle s41"><strong>41</strong></a>
-     </div>
+      <div
+        className={`size-circles ${this.classNames}`}
+        type="button"
+        onClick={onClick}
+      >
+        {children}
+        <a href="#" className="circle s37">
+          <strong>37</strong>
+        </a>
+        <a href="#" className="circle s38">
+          <strong>38</strong>
+        </a>
+        <a href="#" className="circle s39">
+          <strong>39</strong>
+        </a>
+        <a href="#" className="circle s40 na">
+          <strong>40</strong>
+        </a>
+        <a href="#" className="circle s41">
+          <strong>41</strong>
+        </a>
+      </div>
     );
   }
 }
@@ -61,7 +72,6 @@ export class SizeButton extends React.Component {
 //     );
 //   }
 // }
-
 
 // import React, { Component } from 'react';
 
