@@ -24,12 +24,14 @@
   margin-top: 20px;
 }
 
-a.circle {
+.circle {
+  background-color: transparent;
   padding: 15px;
   border-radius: 50%;
   border: 1px solid black;
   text-decoration: none;
   color: black;
+  font-size: 16px;
 }
 
 .circle.selected {
@@ -79,8 +81,8 @@ a.circle {
 /*colours set1*/
 
 .colour-wrapper-set1 {
-  display: none;
-}
+/*  display: none;
+*/}
 
 .colour-btns-set1 {
   width: 30%;
@@ -103,13 +105,13 @@ a.circle {
   background-color: white;
 }
 
-.btn-color-black.selected {
+.btn-color-black.active {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
 }
 
-.btn-color-white.selected {
+.btn-color-white.active {
   border: 2px solid black;
   box-shadow: 0 0 0 4px black inset;
 }
@@ -117,8 +119,7 @@ a.circle {
 /*colours set2*/
 
 .colour-wrapper-set2 {
-  /*  display: none;
-*/
+  display: none;
 }
 
 .colour-btns-set2 {

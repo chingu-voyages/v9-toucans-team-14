@@ -1,41 +1,73 @@
-import React from "react";
-import "./App.css";
-import "./assets/stylesheets/components/banner/right-banner.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { SizeButton } from "./SizeButton";
+import React from 'react';
+import './App.css';
+import './assets/stylesheets/components/banner/right-banner.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { SizeButton } from './SizeButton';
 
 export class RightBanner extends React.Component {
-    constructor(props) {
+  constructor(props) {
     super(props);
-     handleClicked(id) {
+
+    this.state = {
+      sizebuttons: [
+        {
+          id: 1,
+          name: '37',
+          clicked: true
+        },
+        {
+          id: 2,
+          name: '38',
+          clicked: false
+        },
+        {
+          id: 3,
+          name: '39',
+          clicked: false
+        },
+        {
+          id: 4,
+          name: '40',
+          clicked: false
+        },
+        {
+          id: 5,
+          name: '41',
+          clicked: false
+        }
+      ]
+    };
+  }
+
+  handleClicked(id) {
+    // setState for sizebuttons
     this.setState(prevState => {
-      const buttons = prevState.buttons.map(button => {
-        if (button.id === id) {
-          return { ...button, clicked: true };
+      const sizebuttons = prevState.sizebuttons.map(sizebutton => {
+        if (sizebutton.id === id) {
+          return { ...sizebutton, clicked: true };
         }
 
-        return { ...button, clicked: false };
+        return { ...sizebutton, clicked: false };
       });
 
       // same as { buttons: buttons }
-      return { buttons };
+      return { sizebuttons };
     });
   }
 
-  //   /**
-  //    * Getter method, Read Only
-  //    */
-  get buttons() {
-    const { buttons } = this.state;
+  /**
+   * Getter method, Read Only
+   */
+  get sizebuttons() {
+    const { sizebuttons } = this.state;
 
-    return buttons.map(({ name, clicked, id }) => (
+    return sizebuttons.map(({ name, clicked, id }) => (
       <SizeButton
         key={id}
+        name={name}
         clicked={clicked}
         onClick={() => this.handleClicked(id)}
-      >
-        {name}
-      </SizeButton>
+      />
     ));
   }
 
@@ -48,25 +80,7 @@ export class RightBanner extends React.Component {
               <strong>SIZE</strong>
             </p>
           </div>
-          
-          <div>
-            <SizeButton buttons={this.buttons} />
-            {this.state.buttons.map(item => {
-              return (
-                <div key={item.id}>
-                  <input
-                    type="radio"
-                    name="myRadio"
-                    checked={this.state.selectedRadio === item.id}
-                  />
-                  <label onClick={this.select.bind(this, item.id)}>
-                    {item.name}
-                    <span />
-                  </label>
-                </div>
-              );
-            })}
-          </div>
+          <div className="size-circles">{this.sizebuttons}</div>
         </div>
         <div className="reviews-wrapper">
           <div>
@@ -99,7 +113,7 @@ export class RightBanner extends React.Component {
             <strong>COLOUR</strong>
           </p>
           <div className="colour-btns-set1">
-            <a href="btn" className="btn-color-black selected" />
+            <a href="btn" className="btn-color-black active" />
             <a href="btn" className="btn-color-white" />
           </div>
         </div>
@@ -117,80 +131,3 @@ export class RightBanner extends React.Component {
     );
   }
 }
-
-// class App extends Component {
-//   constructor(props) {
-//     super(props);
-
-//     this.state = {
-//       buttons: [
-//         {
-//           id: 1,
-//           name: 'Button 1',
-//           clicked: true
-//         },
-//         {
-//           id: 2,
-//           name: 'Button 2',
-//           clicked: false
-//         },
-//         {
-//           id: 3,
-//           name: 'Button 3',
-//           clicked: false
-//         },
-//         {
-//           id: 4,
-//           name: 'Button 4',
-//           clicked: false
-//         },
-//       ]
-//     };
-//   }
-
-//   handleClicked(id) {
-//     this.setState(prevState => {
-//       const buttons = prevState.buttons.map(
-//         (button) => {
-//           if (button.id === id) {
-//             return { ...button, clicked: true }
-//           }
-
-//           return { ...button, clicked: false }
-//         }
-//       );
-
-//       // same as { buttons: buttons }
-//       return { buttons }
-//     })
-//   }
-
-//   /**
-//    * Getter method, Read Only
-//    */
-//   get buttons() {
-//     const { buttons } = this.state;
-
-//     return buttons.map(
-//       ({ name, clicked, id}) => (
-//         <Button
-//           key={id}
-//           clicked={clicked}
-//           onClick={
-//             () => this.handleClicked(id)
-//           }
-//         >
-//           {name}
-//         </Button>
-//       )
-//     )
-//   }
-
-//   render() {
-//     return(
-//       <div>
-//         {this.buttons}
-//       </div>
-//     );
-//   }
-// }
