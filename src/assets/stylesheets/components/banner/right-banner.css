@@ -110,7 +110,7 @@
   outline: 0;
 }
 
-.btn-color.white {
+.white.btn {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
@@ -118,22 +118,22 @@
   outline: 0;
 }
 
-.btn-color.black.active {
-  border-style: solid;
-  border-width: 6px;
-  border-color: rgb(220, 220, 220);
-}
-
-/*.active {
+/*.black.btn.active {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
 }*/
 
-.btn-color.white.active {
+.active {
+  border-style: solid;
+  border-width: 6px;
+  border-color: rgb(220, 220, 220);
+}
+
+/*.white.btn.active {
   border: 2px solid black;
   box-shadow: 0 0 0 4px black inset;
-}
+}*/
 
 /*colours set2*/
 
