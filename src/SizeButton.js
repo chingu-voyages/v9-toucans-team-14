@@ -17,6 +17,7 @@ export class SizeButton extends React.Component {
       <button type="button" className={this.classNames} onClick={onClick}>
         {name}
       </button>
+
     );
   }
 }

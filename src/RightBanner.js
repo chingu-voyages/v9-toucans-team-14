@@ -9,7 +9,7 @@ export class RightBanner extends React.Component {
     super(props);
 
     this.state = {
-      buttons: [
+      sizebuttons: [
         {
           id: 1,
           name: '37',
@@ -40,27 +40,28 @@ export class RightBanner extends React.Component {
   }
 
   handleClicked(id) {
+    // setState for sizebuttons
     this.setState(prevState => {
-      const buttons = prevState.buttons.map(button => {
-        if (button.id === id) {
-          return { ...button, clicked: true };
+      const sizebuttons = prevState.sizebuttons.map(sizebutton => {
+        if (sizebutton.id === id) {
+          return { ...sizebutton, clicked: true };
         }
 
-        return { ...button, clicked: false };
+        return { ...sizebutton, clicked: false };
       });
 
       // same as { buttons: buttons }
-      return { buttons };
+      return { sizebuttons };
     });
   }
 
   /**
    * Getter method, Read Only
    */
-  get buttons() {
-    const { buttons } = this.state;
+  get sizebuttons() {
+    const { sizebuttons } = this.state;
 
-    return buttons.map(({ name, clicked, id }) => (
+    return sizebuttons.map(({ name, clicked, id }) => (
       <SizeButton
         key={id}
         name={name}
@@ -79,7 +80,7 @@ export class RightBanner extends React.Component {
               <strong>SIZE</strong>
             </p>
           </div>
-          <div className="size-circles">{this.buttons}</div>
+          <div className="size-circles">{this.sizebuttons}</div>
         </div>
         <div className="reviews-wrapper">
           <div>
@@ -112,7 +113,7 @@ export class RightBanner extends React.Component {
             <strong>COLOUR</strong>
           </p>
           <div className="colour-btns-set1">
-            <a href="btn" className="btn-color-black selected" />
+            <a href="btn" className="btn-color-black active" />
             <a href="btn" className="btn-color-white" />
           </div>
         </div>
