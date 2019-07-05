@@ -93,35 +93,39 @@
   margin-top: 20px;
 }
 
-.black.btn {
+.color-btn {
+  outline: 0;
+}
+
+.color-btn.black {
   padding: 15px;
   border-radius: 50%;
   background-color: black;
 }
 
-.white.btn {
+.color-btn.white {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
   background-color: white;
 }
 
-/*.black.btn.active {
-  border-style: solid;
-  border-width: 6px;
-  border-color: rgb(220, 220, 220);
-}*/
-
-.active {
+.color-btn.black.active {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
 }
 
-/*.white.btn.active {
+/*.active {
+  border-style: solid;
+  border-width: 6px;
+  border-color: rgb(220, 220, 220);
+}*/
+
+.color-btn.white.active {
   border: 2px solid black;
   box-shadow: 0 0 0 4px black inset;
-}*/
+}
 
 /*colours set2*/
 
