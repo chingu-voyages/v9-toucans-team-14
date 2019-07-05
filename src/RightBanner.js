@@ -3,6 +3,8 @@ import './App.css';
 import './assets/stylesheets/components/banner/right-banner.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SizeButton } from './SizeButton';
+import { ColorButton } from './ColorButton';
+
 
 export class RightBanner extends React.Component {
   constructor(props) {
