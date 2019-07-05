@@ -5,10 +5,13 @@ export class ColorButton extends React.Component {
     const { clicked, name } = this.props;
 
     if (clicked) {
-      return `btn-color ${name} active`;
+      return `black btn active ${name}`;
+      return `white btn ${name}`;
+
     }
 
-    return `btn-color ${name}`;
+    return `black btn ${name}`;
+    return `white btn ${name}`;
   }
 
   render() {
