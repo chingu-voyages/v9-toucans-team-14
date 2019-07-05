@@ -53,10 +53,10 @@ export class ColorButtons extends React.Component {
   get colorbuttons() {
     const { colorbuttons } = this.state;
 
-    return colorbuttons.map(({ id, colors, clicked }) => (
+    return colorbuttons.map(({ name, clicked, id }) => (
       <ColorButton
         key={id}
-        colors={colors}
+        name={name}
         clicked={clicked}
         onClick={() => this.handleClicked(id)}
       />

@@ -6,11 +6,11 @@
 // import { SizeButtons } from './SizeButtons';
 // import { ColorButtons } from './ColorButtons';
 // =======
-import React from "react";
+import React from 'react';
 // import "../App.css";
-import "../assets/stylesheets/components/banner/right-banner.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { SizeButtons } from "./SizeButtons";
+import '../assets/stylesheets/components/banner/right-banner.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { SizeButtons } from './SizeButtons';
 
 // import { ColorButton } from './ColorButton';
 
@@ -34,11 +34,11 @@ export class RightBanner extends React.Component {
             </p>
           </div>
           <div className="star-icons">
-            <FontAwesomeIcon icon={["fas", "star"]} />
-            <FontAwesomeIcon icon={["fas", "star"]} />
-            <FontAwesomeIcon icon={["fas", "star"]} />
-            <FontAwesomeIcon icon={["fas", "star"]} />
-            <FontAwesomeIcon icon={["far", "star"]} />
+            <FontAwesomeIcon icon={['fas', 'star']} />
+            <FontAwesomeIcon icon={['fas', 'star']} />
+            <FontAwesomeIcon icon={['fas', 'star']} />
+            <FontAwesomeIcon icon={['fas', 'star']} />
+            <FontAwesomeIcon icon={['far', 'star']} />
           </div>
         </div>
         <div className="price-wrapper">
@@ -58,17 +58,7 @@ export class RightBanner extends React.Component {
           <p>
             <strong>COLOUR</strong>
           </p>
-            // <ColorButtons />
-          <div className="colour-btns-set1">
-            <button type="button" className="btn-color black"/>
-            <button type="button" className="btn-color white" />
-            <button type="button" className="btn-color red" />
-            <button type="button" className="btn-color white-brown" />
-            <button type="button" className="btn-color black-brown" />
-            <a>{/* {shoe1.color.colors} */}</a>
-            {/* <button type="button" className="btn-color white" /> */}
-            {/* <Color /> */}
-          </div>
+          <ColorButtons />
         </div>
 
         {/* <div className="colour-wrapper-set2">
