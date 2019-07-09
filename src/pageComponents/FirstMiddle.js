@@ -97,9 +97,21 @@ export class FirstMiddle extends React.Component {
         <div className="social-first-footer">
           <div className="socials">
             <li>
-              <a href="#" className="fa fa-facebook" />
-              <a href="#" className="fa fa-twitter" />
-              <a href="#" className="fa fa-instagram" />
+              <a
+                href="https://www.facebook.com/Fendi"
+                target="_blank"
+                className="fa fa-facebook"
+              />
+              <a
+                href="https://twitter.com/Fendi"
+                target="_blank"
+                className="fa fa-twitter"
+              />
+              <a
+                href="https://www.instagram.com/Fendi/"
+                target="_blank"
+                className="fa fa-instagram"
+              />
             </li>
           </div>
           <div className="next-buttons">
