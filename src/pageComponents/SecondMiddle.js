@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css";
-import "./assets/stylesheets/components/second-middle.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import "../App.css";
+import "../assets/stylesheets/components/second-middle.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export class SecondMiddle extends React.Component {
   render() {
@@ -14,7 +14,7 @@ export class SecondMiddle extends React.Component {
               <FontAwesomeIcon icon="long-arrow-alt-left" />
             </a>
             <a href="btn" className="right-arrow-button">
-            <FontAwesomeIcon icon="long-arrow-alt-right" />
+              <FontAwesomeIcon icon="long-arrow-alt-right" />
             </a>
           </div>
         </div>
@@ -24,8 +24,8 @@ export class SecondMiddle extends React.Component {
             <img src="./images/second-middle/yellow-sunglasses.png" alt="" />
             <div className="accessory-details">
               <div className="circle-wrapper">
-                <FontAwesomeIcon icon="circle"/>
-                <FontAwesomeIcon icon="circle"  className="grey-circle" />
+                <FontAwesomeIcon icon="circle" />
+                <FontAwesomeIcon icon="circle" className="grey-circle" />
                 <FontAwesomeIcon icon="circle" className="grey-circle" />
               </div>
               <p>$300</p>
@@ -36,8 +36,8 @@ export class SecondMiddle extends React.Component {
             <img src="./images/second-middle/cropped-shirt.png" alt="" />
             <div className="accessory-details">
               <div className="circle-wrapper">
-                <FontAwesomeIcon icon="circle"/>
-                <FontAwesomeIcon icon="circle"  className="grey-circle" />
+                <FontAwesomeIcon icon="circle" />
+                <FontAwesomeIcon icon="circle" className="grey-circle" />
                 <FontAwesomeIcon icon="circle" className="grey-circle" />
               </div>
               <p>$450</p>
@@ -48,8 +48,8 @@ export class SecondMiddle extends React.Component {
             <img src="./images/second-middle/white-running.png" alt="" />
             <div className="accessory-details">
               <div className="circle-wrapper">
-                <FontAwesomeIcon icon="circle"/>
-                <FontAwesomeIcon icon="circle"  className="grey-circle" />
+                <FontAwesomeIcon icon="circle" />
+                <FontAwesomeIcon icon="circle" className="grey-circle" />
                 <FontAwesomeIcon icon="circle" className="grey-circle" />
               </div>
               <p>$300</p>
@@ -60,8 +60,8 @@ export class SecondMiddle extends React.Component {
             <img src="./images/second-middle/banana-bag.png" alt="" />
             <div className="accessory-details">
               <div className="circle-wrapper">
-                <FontAwesomeIcon icon="circle"/>
-                <FontAwesomeIcon icon="circle"  className="grey-circle" />
+                <FontAwesomeIcon icon="circle" />
+                <FontAwesomeIcon icon="circle" className="grey-circle" />
                 <FontAwesomeIcon icon="circle" className="grey-circle" />
               </div>
               <p>$210</p>

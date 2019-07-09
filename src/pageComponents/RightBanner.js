@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
-import "./assets/stylesheets/components/banner/right-banner.css";
+// import "../App.css";
+import "../assets/stylesheets/components/banner/right-banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SizeButtons } from "./SizeButtons";
 
@@ -51,13 +51,17 @@ export class RightBanner extends React.Component {
             <strong>COLOUR</strong>
           </p>
           <div className="colour-btns-set1">
-            <a href="btn" className="btn-color-black active">
-              {shoe1.color.colors}
-            </a>
+            <a href="btn" className="btn-color-black" />
+            <a href="btn" className="btn-color-white" />
+            <a href="btn" className="btn-color-red" />
+            <a href="btn" className="btn-color-white-brown" />
+            <a href="btn" className="btn-color-black-brown" />
+            <a>{/* {shoe1.color.colors} */}</a>
             {/* <a href="btn" className="btn-color-white" /> */}
+            {/* <Color /> */}
           </div>
         </div>
-        <div className="colour-wrapper-set2">
+        {/* <div className="colour-wrapper-set2">
           <p>
             <strong>COLOUR</strong>
           </p>
@@ -66,7 +70,7 @@ export class RightBanner extends React.Component {
             <a href="btn" className="btn-color-white-brown selected" />
             <a href="btn" className="btn-color-black-brown" />
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

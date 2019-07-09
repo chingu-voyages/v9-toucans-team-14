@@ -1,5 +1,5 @@
 import React from "react";
-import Social from "./Social";
+// import Social from "./pageComponents/Social";
 
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 

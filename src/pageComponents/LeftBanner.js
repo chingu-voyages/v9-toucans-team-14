@@ -6,7 +6,7 @@ export class LeftBanner extends React.Component {
     const pStyle = {
       // transition: "all 10s"
       // transition: "transform .2s ease-in-out"
-      border: "2px dotted blue"
+      // border: "2px dotted blue"
     };
     return (
       <div className="left-banner">

@@ -10,7 +10,21 @@ export class Top extends React.Component {
   state = {
     selectedShoeIndex: 0,
     previewImageIndex: 0
+    // color: ""
   };
+
+  /* onChange = () => {
+    if (this.state.selectedShoeIndex === 0) {
+      // this.setState({ color: "black" });
+      this.setState(() => ({
+        color: "black"
+      }));
+    } else {
+      this.setState(() => ({
+        color: "red"
+      }));
+    }
+  }; */
 
   setPreviewImageIndex = index => {
     this.setState(() => ({
@@ -71,7 +85,10 @@ export class Top extends React.Component {
         </div>
 
         <div className="right-banner">
-          <RightBanner selectedShoe={ShoeData[this.state.selectedShoeIndex]} />
+          <RightBanner
+            selectedShoe={ShoeData[this.state.selectedShoeIndex]}
+            // onClickChange={this.onChange}
+          />
         </div>
 
         <div className="foot-banner">
