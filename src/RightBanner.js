@@ -1,15 +1,14 @@
-import React from 'react';
-import './App.css';
-import './assets/stylesheets/components/banner/right-banner.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { SizeButtons } from './SizeButtons';
+import React from "react";
+import "./App.css";
+import "./assets/stylesheets/components/banner/right-banner.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SizeButtons } from "./SizeButtons";
 
 // import { ColorButton } from './ColorButton';
 
-
 export class RightBanner extends React.Component {
-
   render() {
+    const shoe1 = this.props.selectedShoe;
     return (
       <div className="wrapper">
         <div className="size-wrapper">
@@ -18,7 +17,7 @@ export class RightBanner extends React.Component {
               <strong>SIZE</strong>
             </p>
           </div>
-            <SizeButtons />
+          <SizeButtons />
         </div>
         <div className="reviews-wrapper">
           <div>
@@ -42,7 +41,8 @@ export class RightBanner extends React.Component {
           </div>
           <div>
             <p>
-              <strong>$450</strong>
+              {/* <strong>$450</strong> */}
+              <strong>{shoe1.price}</strong>
             </p>
           </div>
         </div>
@@ -51,8 +51,10 @@ export class RightBanner extends React.Component {
             <strong>COLOUR</strong>
           </p>
           <div className="colour-btns-set1">
-            <a href="btn" className="btn-color-black active" />
-            <a href="btn" className="btn-color-white" />
+            <a href="btn" className="btn-color-black active">
+              {shoe1.color.colors}
+            </a>
+            {/* <a href="btn" className="btn-color-white" /> */}
           </div>
         </div>
         <div className="colour-wrapper-set2">

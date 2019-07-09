@@ -56,7 +56,8 @@ const shoeData = [
     category: { code: 1, name: "Fendi - High tops" },
     titleText: "Black technical knit fabric high-tops",
     introText: "Running sneakers with thin elastic laces",
-    color: { code: 1, name: "Black" },
+    color: { code: 1, name: "Black", colors: "#000000" },
+    price: "$650",
     previewImages: [
       { url: blackSmall1, altText: "alt text 1" },
       { url: blackSmall2, altText: "alt text 2" },
@@ -77,7 +78,8 @@ const shoeData = [
     category: { code: 1, name: "Fendi - High tops" },
     titleText: "White technical knit fabric high-tops",
     introText: "Running sneakers with thin elastic laces",
-    color: { code: 1, name: "White" },
+    color: { code: 1, name: "White", colors: "#FFFFFF" },
+    price: "$750",
     previewImages: [
       { url: whiteSmall1C, altText: "alt text 1" },
       { url: whiteSmall2C, altText: "alt text 2" },
@@ -96,7 +98,8 @@ const shoeData = [
     category: { code: 2, name: "Fendi - Low tops" },
     titleText: "Red technical knit fabric low-tops",
     introText: "Running sneakers with thin elastic laces",
-    color: { code: 2, name: "Red" },
+    color: { code: 2, name: "Red", colors: "#FF0000" },
+    price: "$550",
     previewImages: [
       { url: redSmall1C, altText: "alt text 1" },
       { url: redSmall2C, altText: "alt text 2" },
@@ -115,7 +118,8 @@ const shoeData = [
     category: { code: 2, name: "Fendi - Low tops" },
     titleText: "Black Brown technical knit fabric low-tops",
     introText: "Running sneakers with thin elastic laces",
-    color: { code: 2, name: "BlackBrown" },
+    color: { code: 2, name: "BlackBrown", colors: "#A52A2A" },
+    price: "$700",
     previewImages: [
       { url: blackBrownSmall1C, altText: "alt text 1" },
       { url: blackBrownSmall2C, altText: "alt text 2" },
@@ -138,7 +142,8 @@ const shoeData = [
     category: { code: 2, name: "Fendi - Low tops" },
     titleText: "White Brown technical knit fabric low-tops",
     introText: "Running sneakers with thin elastic laces",
-    color: { code: 2, name: "WhiteBrown" },
+    color: { code: 2, name: "WhiteBrown", colors: "#A52A2A" },
+    price: "$800",
     previewImages: [
       { url: whiteBrownSmall1C, altText: "alt text 1" },
       { url: whiteBrownSmall2C, altText: "alt text 2" },

@@ -56,7 +56,7 @@ export class Top extends React.Component {
         <div className="left-banner">
           <LeftBanner
             selectedShoe={ShoeData[this.state.selectedShoeIndex]}
-            HandleImageClick={this.setPreviewImageIndex}
+            onImageClick={this.setPreviewImageIndex}
           />
         </div>
 
@@ -71,7 +71,7 @@ export class Top extends React.Component {
         </div>
 
         <div className="right-banner">
-          <RightBanner />
+          <RightBanner selectedShoe={ShoeData[this.state.selectedShoeIndex]} />
         </div>
 
         <div className="foot-banner">

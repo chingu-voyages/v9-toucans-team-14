@@ -82,8 +82,9 @@
 /*colours set1*/
 
 .colour-wrapper-set1 {
-/*  display: none;
-*/}
+  /*  display: none;
+*/
+}
 
 .colour-btns-set1 {
   width: 30%;
@@ -96,7 +97,7 @@
 .btn-color-black {
   padding: 15px;
   border-radius: 50%;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .btn-color-white {

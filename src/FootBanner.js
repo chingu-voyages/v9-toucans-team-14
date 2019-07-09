@@ -14,13 +14,24 @@ export class FootBanner extends React.Component {
           </button>
 
           <div className="foot-arrow">
-            <img src="https://img.icons8.com/small/22/000000/long-arrow-left.png" onClick={this.props.onPreviousShoe} alt="Previous"/>
+            <img
+              src="https://img.icons8.com/small/22/000000/long-arrow-left.png"
+              onClick={this.props.onPreviousShoe}
+              alt="Previous"
+            />
 
-            <img src="https://img.icons8.com/small/22/000000/long-arrow-right.png" onClick={this.props.onNextShoe} alt="Next"/>
+            <img
+              src="https://img.icons8.com/small/22/000000/long-arrow-right.png"
+              onClick={this.props.onNextShoe}
+              alt="Next"
+            />
           </div>
           <div className="add-heart">
             <button className="add-cart">add to cart</button>
-            <img className="heart" src="https://img.icons8.com/windows/18/000000/like.png" />
+            <img
+              className="heart"
+              src="https://img.icons8.com/windows/18/000000/like.png"
+            />
           </div>
         </div>
       </div>
