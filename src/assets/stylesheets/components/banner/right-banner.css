@@ -82,7 +82,7 @@
 
 /*colours set1*/
 
-.colour-wrapper-set1 {
+<<<<<<< head .colour-wrapper-set1 {
   /*  display: none;
 */
 }
@@ -91,6 +91,8 @@
   cursor: pointer;
 }
 
+=======
+>>>>>>> fix(color-buttons): buttons show colors
 .colour-btns-set1 {
   width: 30%;
   display: flex;
@@ -149,7 +151,7 @@
   margin-top: 20px;
 }
 
-.btn-color.red {
+.color-btn.red {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
@@ -157,7 +159,7 @@
   outline: 0;
 }
 
-.btn-color.white-brown {
+.color-btn.white-brown {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
@@ -172,7 +174,7 @@
   outline: 0;
 }
 
-.btn-color.black-brown {
+.color-btn.black-brown {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
@@ -187,19 +189,19 @@
   outline: 0;
 }
 
-.btn-color.red.selected {
+.color-btn.red.active {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
 }
 
-.btn-color.white-brown.selected {
+.color-btn.white-brown.active {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
 }
 
-.btn-color.black-brown.selected {
+.color-btn.black-brown.active {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
