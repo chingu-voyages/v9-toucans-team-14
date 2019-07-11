@@ -9,17 +9,18 @@ export class SecondMiddle extends React.Component {
         <div className="second-middle-navbar">
           <h3>Style with &nbsp; &mdash;</h3>
           <div>
-            <a href="btn" className="left-arrow-button">
+            <button type="button" className="left-arrow-button">
               <FontAwesomeIcon icon="long-arrow-alt-left" />
-            </a>
-            <a href="btn" className="right-arrow-button">
-              <FontAwesomeIcon icon="long-arrow-alt-right" />
-            </a>
+            </button>
+
+            <button className="right-arrow-button">
+             <FontAwesomeIcon icon="long-arrow-alt-right" />
+            </button>
           </div>
         </div>
 
         <div className="accessories-wrapper">
-          <div className="accessory-1">
+          <div className="accessory">
             <img src="./images/second-middle/yellow-sunglasses.png" alt="" />
             <div className="accessory-details">
               <div className="circle-wrapper">
@@ -31,7 +32,7 @@ export class SecondMiddle extends React.Component {
             </div>
           </div>
 
-          <div className="accessory-1">
+          <div className="accessory">
             <img src="./images/second-middle/cropped-shirt.png" alt="" />
             <div className="accessory-details">
               <div className="circle-wrapper">
@@ -43,7 +44,7 @@ export class SecondMiddle extends React.Component {
             </div>
           </div>
 
-          <div className="accessory-1">
+          <div className="accessory">
             <img src="./images/second-middle/white-running.png" alt="" />
             <div className="accessory-details">
               <div className="circle-wrapper">
@@ -55,7 +56,7 @@ export class SecondMiddle extends React.Component {
             </div>
           </div>
 
-          <div className="accessory-1">
+          <div className="accessory">
             <img src="./images/second-middle/banana-bag.png" alt="" />
             <div className="accessory-details">
               <div className="circle-wrapper">
