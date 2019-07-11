@@ -1,5 +1,4 @@
 import React from "react";
-import LeftRightArrow from "./LeftRightArrow";
 export class FootBanner extends React.Component {
   onClick() {
     window.open("https://dribbble.com/shots/6575439-Kalli-UI-Kit-II", "_blank");
@@ -10,31 +9,32 @@ export class FootBanner extends React.Component {
       <div className="foot-banner">
         <div className="foot-button">
           <button className="play-button" onClick={this.onClick}>
-            <img src="https://img.icons8.com/material/24/000000/circled-play.png" />
+            <img
+              src="https://img.icons8.com/material/24/000000/circled-play.png"
+              alt="playButton"
+            />
             <p>play video</p>
           </button>
-          <LeftRightArrow />
-          <div className="lines">
-            <p>02</p>
+
+          <div className="foot-arrow">
             <img
-              className="first-line"
-              src="https://img.icons8.com/ios-glyphs/22/000000/horizontal-line.png"
+              src="https://img.icons8.com/small/22/000000/long-arrow-left.png"
+              onClick={this.props.onPreviousShoe}
+              alt="Previous"
             />
+
             <img
-              className="second-line"
-              src="https://img.icons8.com/ios-glyphs/22/000000/horizontal-line.png"
+              src="https://img.icons8.com/small/22/000000/long-arrow-right.png"
+              onClick={this.props.onNextShoe}
+              alt="Next"
             />
-            <img
-              className="third-line"
-              src="https://img.icons8.com/ios-glyphs/22/000000/horizontal-line.png"
-            />
-            <p>05</p>
           </div>
           <div className="add-heart">
             <button className="add-cart">add to cart</button>
             <img
               className="heart"
               src="https://img.icons8.com/windows/18/000000/like.png"
+              alt="heartImage"
             />
           </div>
         </div>

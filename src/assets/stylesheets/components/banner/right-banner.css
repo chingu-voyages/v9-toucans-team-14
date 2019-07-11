@@ -33,6 +33,7 @@
   color: black;
   font-size: 16px;
   outline: 0;
+  cursor: pointer;
 }
 
 .circle.selected {
@@ -81,6 +82,15 @@
 
 /*colours set1*/
 
+.colour-wrapper-set1 {
+  /*  display: none;
+*/
+}
+
+.btn-color {
+  cursor: pointer;
+}
+
 .colour-btns-set1 {
   width: 30%;
   display: flex;
@@ -89,24 +99,26 @@
   margin-top: 20px;
 }
 
-.color-btn {
+/*.color-btn {
   outline: 0;
-}
+}*/
 
-.color-btn.black {
+.btn-color.black {
   padding: 15px;
   border-radius: 50%;
   background-color: black;
+  outline: 0;
 }
 
-.color-btn.white {
+.btn-color.white {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
   background-color: white;
+  outline: 0;
 }
 
-.color-btn.black.active {
+.btn-color.black.active {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
@@ -118,7 +130,7 @@
   border-color: rgb(220, 220, 220);
 }*/
 
-.color-btn.white.active {
+.btn-color.white.active {
   border: 2px solid black;
   box-shadow: 0 0 0 4px black inset;
 }
@@ -137,14 +149,15 @@
   margin-top: 20px;
 }
 
-.color-btn.red {
+.btn-color.red {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
   background-color: red;
+  outline: 0;
 }
 
-.color-btn.white-brown {
+.btn-color.white-brown {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
@@ -156,9 +169,10 @@
     grey 51%,
     white 51%
   );
+  outline: 0;
 }
 
-.color-btn.black-brown {
+.btn-color.black-brown {
   padding: 15px;
   border-radius: 50%;
   border: 1px solid grey;
@@ -170,21 +184,22 @@
     white 51%,
     black 51%
   );
+  outline: 0;
 }
 
-.color-btn.red.active {
+.btn-color.red.selected {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
 }
 
-.color-btn.white-brown.active {
+.btn-color.white-brown.selected {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
 }
 
-.color-btn.black-brown.active {
+.btn-color.black-brown.selected {
   border-style: solid;
   border-width: 6px;
   border-color: rgb(220, 220, 220);
