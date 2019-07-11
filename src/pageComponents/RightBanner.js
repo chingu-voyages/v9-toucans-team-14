@@ -7,12 +7,10 @@
 // import { ColorButtons } from './ColorButtons';
 // =======
 import React from 'react';
-// import "../App.css";
 import '../assets/stylesheets/components/banner/right-banner.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SizeButtons } from './SizeButtons';
-
-// import { ColorButton } from './ColorButton';
+import { ColorButtons } from '../ColorButtons';
 
 export class RightBanner extends React.Component {
   render() {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ColorButton } from './ColorButton';
+import { ColorButton } from './pageComponents/ColorButton';
 
 export class ColorButtons extends React.Component {
   constructor(props) {
