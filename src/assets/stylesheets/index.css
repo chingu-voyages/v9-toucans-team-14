@@ -56,12 +56,6 @@ body {
   grid-area: footer;
 }
 
-.top-kalli,
-.first-middle-black,
-.second-middle-style {
-  /* border: 2px solid blue; */
-}
-
 /* Top */
 .top-kalli {
   background: #f5f5f5;
@@ -113,9 +107,7 @@ body {
 }
 
 .small-images img:hover {
-  cursor: pointer;
   filter: brightness(0.87);
-  opacity: 1;
 }
 
 /* center banner */
@@ -257,7 +249,6 @@ body {
 /* Foot */
 .last-foot {
   background: #282c34;
-  /* border: 8px solid blue; */
   color: #f5f5f5;
   display: grid;
   grid-template-columns: 2fr 200px 200px 200px 50px;
@@ -335,18 +326,5 @@ body {
 
 .last-foot li {
   list-style: none;
-}
-
-/* Social media links */
-a.social {
-  color: gray;
-  display: inline-block;
-  margin: 0 5px;
-  transition: transform 250ms;
-}
-
-a.social:hover {
-  color: lightblue;
-  transform: translateY(-4px);
 }
 /* Team-14 styles end here */
