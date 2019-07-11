@@ -1,3 +1,11 @@
+// <<<<<<< HEAD:src/RightBanner.js
+// import React from 'react';
+// import './App.css';
+// import './assets/stylesheets/components/banner/right-banner.css';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { SizeButtons } from './SizeButtons';
+// import { ColorButtons } from './ColorButtons';
+// =======
 import React from "react";
 // import "../App.css";
 import "../assets/stylesheets/components/banner/right-banner.css";
@@ -50,6 +58,7 @@ export class RightBanner extends React.Component {
           <p>
             <strong>COLOUR</strong>
           </p>
+            // <ColorButtons />
           <div className="colour-btns-set1">
             <button type="button" className="btn-color black"/>
             <button type="button" className="btn-color white" />
@@ -61,6 +70,7 @@ export class RightBanner extends React.Component {
             {/* <Color /> */}
           </div>
         </div>
+
         {/* <div className="colour-wrapper-set2">
           <p>
             <strong>COLOUR</strong>
