@@ -49,13 +49,13 @@ export class RightBanner extends React.Component {
           <p>
             <strong>COLOUR</strong>
           </p>
-            <ColorButtons />
         </div>
 
         <div className="colour-wrapper-set2">
           <p>
             <strong>COLOUR</strong>
           </p>
+            <ColorButtons />
         </div>
       </div>
     );
