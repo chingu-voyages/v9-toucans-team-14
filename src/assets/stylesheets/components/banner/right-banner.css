@@ -87,7 +87,7 @@
 */
 }
 
-.btn-color {
+.color-btn {
   cursor: pointer;
 }
 
@@ -98,10 +98,6 @@
   justify-content: space-between;
   margin-top: 20px;
 }
-
-/*.color-btn {
-  outline: 0;
-}*/
 
 .btn-color.black {
   padding: 15px;
