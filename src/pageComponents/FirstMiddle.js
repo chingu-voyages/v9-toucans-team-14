@@ -1,5 +1,4 @@
 import React from "react";
-// import "../App.css";
 import "../assets/stylesheets/components/first-middle.css";
 
 export class FirstMiddle extends React.Component {
@@ -100,16 +99,19 @@ export class FirstMiddle extends React.Component {
               <a
                 href="https://www.facebook.com/Fendi"
                 target="_blank"
+                rel="noopener  noreferrer"
                 className="fa fa-facebook"
               />
               <a
                 href="https://twitter.com/Fendi"
                 target="_blank"
+                rel="noopener  noreferrer"
                 className="fa fa-twitter"
               />
               <a
                 href="https://www.instagram.com/Fendi/"
                 target="_blank"
+                rel="noopener  noreferrer"
                 className="fa fa-instagram"
               />
             </li>

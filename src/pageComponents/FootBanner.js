@@ -9,7 +9,10 @@ export class FootBanner extends React.Component {
       <div className="foot-banner">
         <div className="foot-button">
           <button className="play-button" onClick={this.onClick}>
-            <img src="https://img.icons8.com/material/24/000000/circled-play.png" />
+            <img
+              src="https://img.icons8.com/material/24/000000/circled-play.png"
+              alt="playButton"
+            />
             <p>play video</p>
           </button>
 
@@ -31,6 +34,7 @@ export class FootBanner extends React.Component {
             <img
               className="heart"
               src="https://img.icons8.com/windows/18/000000/like.png"
+              alt="heartImage"
             />
           </div>
         </div>

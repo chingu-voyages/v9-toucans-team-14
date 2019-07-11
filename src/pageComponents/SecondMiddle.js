@@ -1,5 +1,4 @@
 import React from "react";
-// import "../App.css";
 import "../assets/stylesheets/components/second-middle.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
