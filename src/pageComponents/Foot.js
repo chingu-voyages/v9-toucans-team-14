@@ -9,7 +9,12 @@ export class Foot extends React.Component {
         <h3 className="section-title">kalli</h3>
 
         <p className="copyright-text sub-title">
-          Copyright @2019 Made with <span> 💗 </span> by{" "}
+          Copyright @2019 Made with{" "}
+          <span role="img" aria-label="heart">
+            {" "}
+            💗{" "}
+          </span>{" "}
+          by{" "}
           <a
             href="https://github.com/chingu-voyages/v9-toucans-team-14/tree/master"
             target="_blank"
