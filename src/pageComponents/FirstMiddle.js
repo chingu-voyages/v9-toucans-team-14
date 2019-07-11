@@ -97,22 +97,23 @@ export class FirstMiddle extends React.Component {
           <div className="socials">
             <li>
               <a
+                className="fa fa-facebook"
                 href="https://www.facebook.com/Fendi"
                 target="_blank"
                 rel="noopener  noreferrer"
-                className="fa fa-facebook"
               />
+
               <a
+                className="fa fa-twitter"
                 href="https://twitter.com/Fendi"
                 target="_blank"
                 rel="noopener  noreferrer"
-                className="fa fa-twitter"
               />
               <a
+                className="fa fa-instagram"
                 href="https://www.instagram.com/Fendi/"
                 target="_blank"
                 rel="noopener  noreferrer"
-                className="fa fa-instagram"
               />
             </li>
           </div>

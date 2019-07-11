@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-dom";
+// import { render } from "react-dom";
 
 import { Top } from "./pageComponents/Top";
 import { FirstMiddle } from "./pageComponents/FirstMiddle";
@@ -32,7 +32,7 @@ export class App extends React.Component {
         <h1>Kalli</h1>
 
         <div>
-          <Top />
+          <Top/>
         </div>
 
         <div>

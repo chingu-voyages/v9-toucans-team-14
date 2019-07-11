@@ -98,6 +98,7 @@
   padding: 15px;
   border-radius: 50%;
   background-color: black;
+  outline: 0;
 }
 
 .btn-color-white {
@@ -105,6 +106,7 @@
   border-radius: 50%;
   border: 1px solid grey;
   background-color: white;
+  outline: 0;
 }
 
 .btn-color-black.active {
@@ -137,6 +139,7 @@
   border-radius: 50%;
   border: 1px solid grey;
   background-color: red;
+  outline: 0;
 }
 
 .btn-color-white-brown {
@@ -151,6 +154,7 @@
     grey 51%,
     white 51%
   );
+  outline: 0;
 }
 
 .btn-color-black-brown {
@@ -165,6 +169,7 @@
     white 51%,
     black 51%
   );
+  outline: 0;
 }
 
 .btn-color-red.selected {

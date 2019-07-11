@@ -51,13 +51,13 @@ export class RightBanner extends React.Component {
             <strong>COLOUR</strong>
           </p>
           <div className="colour-btns-set1">
-            <a href="btn" className="btn-color-black" />
-            <a href="btn" className="btn-color-white" />
-            <a href="btn" className="btn-color-red" />
-            <a href="btn" className="btn-color-white-brown" />
-            <a href="btn" className="btn-color-black-brown" />
+            <button type="button" className="btn-color-black"/>
+            <button type="button" className="btn-color-white" />
+            <button type="button" className="btn-color-red" />
+            <button type="button" className="btn-color-white-brown" />
+            <button type="button" className="btn-color-black-brown" />
             <a>{/* {shoe1.color.colors} */}</a>
-            {/* <a href="btn" className="btn-color-white" /> */}
+            {/* <button type="button" className="btn-color-white" /> */}
             {/* <Color /> */}
           </div>
         </div>
@@ -66,9 +66,9 @@ export class RightBanner extends React.Component {
             <strong>COLOUR</strong>
           </p>
           <div className="colour-btns-set2">
-            <a href="btn" className="btn-color-red" />
-            <a href="btn" className="btn-color-white-brown selected" />
-            <a href="btn" className="btn-color-black-brown" />
+            <button type="button" className="btn-color-red" />
+            <button type="button" className="btn-color-white-brown selected" />
+            <button type="button" className="btn-color-black-brown" />
           </div>
         </div> */}
       </div>
