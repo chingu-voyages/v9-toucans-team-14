@@ -35,6 +35,7 @@ export class LeftBanner extends React.Component {
         <div className="small-images">
           {shoe.previewImages.map((image, index) => (
             <img
+              key={index}
               style={{
                 ...pStyle,
                 cursor: "pointer",

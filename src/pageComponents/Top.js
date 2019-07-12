@@ -71,10 +71,7 @@ export class Top extends React.Component {
         </div>
 
         <div className="right-banner">
-          <RightBanner
-            selectedShoe={ShoeData[this.state.selectedShoeIndex]}
-            // onClickChange={this.onChange}
-          />
+          <RightBanner selectedShoe={ShoeData[this.state.selectedShoeIndex]} />
         </div>
 
         <div className="foot-banner">

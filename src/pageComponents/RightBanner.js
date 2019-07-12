@@ -1,9 +1,9 @@
-import React from 'react';
-import '../App.css';
-import '../assets/stylesheets/components/banner/right-banner.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { SizeButtons } from './SizeButtons';
-import { ColorButtons } from './ColorButtons';
+import React from "react";
+import "../App.css";
+import "../assets/stylesheets/components/banner/right-banner.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SizeButtons } from "./SizeButtons";
+import { ColorButtons } from "./ColorButtons";
 
 export class RightBanner extends React.Component {
   render() {
@@ -39,8 +39,12 @@ export class RightBanner extends React.Component {
             </p>
           </div>
           <div>
-            <p>
-              {/* <strong>$450</strong> */}
+            <p
+              style={{
+                background: "white",
+                color: "darkblue"
+              }}
+            >
               <strong>{shoe1.price}</strong>
             </p>
           </div>
@@ -55,7 +59,7 @@ export class RightBanner extends React.Component {
           <p>
             <strong>COLOUR</strong>
           </p>
-            <ColorButtons />
+          <ColorButtons />
         </div>
       </div>
     );
