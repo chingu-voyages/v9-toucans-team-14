@@ -13,10 +13,10 @@ https://chingu-shoe-project.herokuapp.com/
 
 
 # Languages and libraries
-Javascript, React, HTML, CSS/CSS-grid, Flexbox, Fontawesome
+Javascript, React, HTML, CSS-grid, Flexbox, Fontawesome
 
 
 # Team members
-@nisha
-@emorissettegregoire
-@MthunziNamba
+- [@nisha]
+- [@emorissettegregoire](https://github.com/emorissettegregoire)
+- [@MthunziNamba](https://github.com/MthunziNamba)
