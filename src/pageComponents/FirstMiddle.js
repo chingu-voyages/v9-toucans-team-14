@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/stylesheets/components/first-middle.css";
-
+import Social from "./Social";
 export class FirstMiddle extends React.Component {
   render() {
     return (
@@ -95,27 +95,7 @@ export class FirstMiddle extends React.Component {
 
         <div className="social-first-footer">
           <div className="socials">
-            <li>
-              <a
-                className="fa fa-facebook"
-                href="https://www.facebook.com/Fendi"
-                target="_blank"
-                rel="noopener  noreferrer"
-              />
-
-              <a
-                className="fa fa-twitter"
-                href="https://twitter.com/Fendi"
-                target="_blank"
-                rel="noopener  noreferrer"
-              />
-              <a
-                className="fa fa-instagram"
-                href="https://www.instagram.com/Fendi/"
-                target="_blank"
-                rel="noopener  noreferrer"
-              />
-            </li>
+            <Social />
           </div>
           <div className="next-buttons">
             <div>
