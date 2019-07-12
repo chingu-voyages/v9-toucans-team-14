@@ -2,7 +2,7 @@ import React from "react";
 // import { render } from "react-dom";
 
 import { Top } from "./pageComponents/Top";
-import { FirstMiddle } from "./pageComponents/FirstMiddle";
+import { FirstMiddle } from "./pageComponents/2.FirstMiddle/FirstMiddle";
 import { SecondMiddle } from "./pageComponents/SecondMiddle";
 import { Foot } from "./pageComponents/Foot";
 
