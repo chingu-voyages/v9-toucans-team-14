@@ -15,7 +15,7 @@ export default function Social() {
         target="_blank"
         rel="noopener  noreferrer"
       >
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
+        <FontAwesomeIcon icon={faFacebook} size="1x" />
       </a>
 
       <a
@@ -24,7 +24,7 @@ export default function Social() {
         target="_blank"
         rel="noopener  noreferrer"
       >
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
+        <FontAwesomeIcon icon={faTwitter} size="1x" />
       </a>
 
       <a
@@ -33,7 +33,7 @@ export default function Social() {
         target="_blank"
         rel="noopener  noreferrer"
       >
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
+        <FontAwesomeIcon icon={faInstagram} size="1x" />
       </a>
     </div>
   );

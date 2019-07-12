@@ -2,6 +2,7 @@ import React from 'react';
 
 import { ColorButton } from './ColorButton';
 
+
 export class ColorButtons extends React.Component {
   constructor(props) {
     super(props);
@@ -66,6 +67,10 @@ export class ColorButtons extends React.Component {
         onClick={() => this.handleClicked(id)}
       />
     ));
+  }
+
+  get images() {
+
   }
 
   render() {
