@@ -57,7 +57,7 @@ const shoeData = [
     titleText: "Black technical knit fabric high-tops",
     introText: "Running sneakers with thin elastic laces",
     color: { code: 1, name: "Black", colors: "#000000" },
-    price: "$780",
+    price: "$680",
     previewImages: [
       { url: blackSmall1, altText: "alt text 1" },
       { url: blackSmall2, altText: "alt text 2" },
@@ -79,7 +79,7 @@ const shoeData = [
     titleText: "White technical knit fabric high-tops",
     introText: "Running sneakers with thin elastic laces",
     color: { code: 1, name: "White", colors: "#FFFFFF" },
-    price: "$750",
+    price: "$700",
     previewImages: [
       { url: whiteSmall1C, altText: "alt text 1" },
       { url: whiteSmall2C, altText: "alt text 2" },
@@ -119,7 +119,7 @@ const shoeData = [
     titleText: "Black technical knit fabric low-tops",
     introText: "Running sneakers with thin elastic laces",
     color: { code: 2, name: "BlackBrown", colors: "#A52A2A" },
-    price: "$700",
+    price: "$720",
     previewImages: [
       { url: blackBrownSmall1C, altText: "alt text 1" },
       { url: blackBrownSmall2C, altText: "alt text 2" },
@@ -143,7 +143,7 @@ const shoeData = [
     titleText: "White technical knit fabric low-tops",
     introText: "Running sneakers with thin elastic laces",
     color: { code: 2, name: "WhiteBrown", colors: "#A52A2A" },
-    price: "$760",
+    price: "$690",
     previewImages: [
       { url: whiteBrownSmall1C, altText: "alt text 1" },
       { url: whiteBrownSmall2C, altText: "alt text 2" },
