@@ -1,3 +1,20 @@
+
+# Goal
+
+Challenge ⛰️ ourselves in experimenting for the first time a React app!
+
+Building a shopping app for sneaker 👟 lovers!
+
+Got inspired by Kalli UI Kit: https://dribbble.com/shots/6575439-Kalli-UI-Kit-II
+
+# Result of our team work 👇🏼 🎉
+
+https://chingu-shoe-project.herokuapp.com/
+
+
+
+<!--
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +83,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ -->
