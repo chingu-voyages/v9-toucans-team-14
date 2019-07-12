@@ -10,16 +10,26 @@ export class ColorButtons extends React.Component {
       colorbuttons: [
         {
           id: 1,
-          colors: ['red'],
+          colors: ['white'],
           clicked: true
         },
         {
           id: 2,
-          colors: ['white', 'brown'],
+          colors: ['black'],
           clicked: false
         },
         {
           id: 3,
+          colors: ['red'],
+          clicked: false
+        },
+        {
+          id: 4,
+          colors: ['white', 'brown'],
+          clicked: false
+        },
+        {
+          id: 5,
           colors: ['black', 'brown'],
           clicked: false
         }

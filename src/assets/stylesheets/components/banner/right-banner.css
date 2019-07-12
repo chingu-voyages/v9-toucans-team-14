@@ -114,17 +114,6 @@
   outline: 0;
 }
 
-.color-btn.black.active {
-  border-style: solid;
-  border-width: 6px;
-  border-color: rgb(220, 220, 220);
-}
-
-.color-btn.white.active {
-  border: 2px solid black;
-  box-shadow: 0 0 0 4px black inset;
-}
-
 /*colours set2*/
 
 .colour-wrapper-set2 {
@@ -132,7 +121,7 @@
 }
 
 .colour-btns-set2 {
-  width: 160px;
+  width: 230px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -177,6 +166,7 @@
   outline: 0;
 }
 
+.color-btn.black.active,
 .color-btn.red.active,
 .color-btn.white-brown.active,
 .color-btn.black-brown.active {
@@ -184,6 +174,12 @@
   border-width: 6px;
   border-color: rgb(220, 220, 220);
   margin: -5px;
+}
+
+.color-btn.white.active {
+  border: 2px solid black;
+  box-shadow: 0 0 0 4px black inset;
+  margin: -1px;
 }
 
 /*colours design ends*/
