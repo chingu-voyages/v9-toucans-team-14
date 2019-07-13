@@ -12,7 +12,7 @@ https://chingu-shoe-project.herokuapp.com/
 
 # Languages and libraries
 
-Javascript, React, HTML, CSS-grid, Flexbox, Fontawesome
+React, Javascript, HTML, CSS-grid, Flexbox
 
 # Team members
 
