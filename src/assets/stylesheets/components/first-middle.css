@@ -85,15 +85,6 @@
   color: black;
 }
 
-/*.fa {
-  padding: 20px;
-  font-size: 10px;
-  width: 30px;
-  text-decoration: none;
-  border-radius: 50%;
-}*/
-
-
 .fa:hover {
   opacity: 2;
 }

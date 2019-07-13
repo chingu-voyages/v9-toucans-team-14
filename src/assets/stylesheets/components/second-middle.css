@@ -1,6 +1,4 @@
 .second-middle-navbar {
-  /*  border: 2px solid red;
-*/
   margin-left: 80px;
   margin-right: 80px;
   padding-top: 20px;
@@ -34,8 +32,6 @@
 }
 
 .accessory {
-  /*  border: 2px solid red;
-*/
   height: 250px;
   width: 250px;
   background: #f5f5f5;

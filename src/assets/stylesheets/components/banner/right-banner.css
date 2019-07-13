@@ -83,8 +83,7 @@
 /*colours set1*/
 
 .colour-wrapper-set1 {
-    display: none;
-
+  display: none;
 }
 
 .color-btn {
@@ -115,10 +114,6 @@
 }
 
 /*colours set2*/
-
-.colour-wrapper-set2 {
-/*  display: none;*/
-}
 
 .colour-btns-set2 {
   width: 230px;

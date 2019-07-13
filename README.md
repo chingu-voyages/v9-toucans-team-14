@@ -16,6 +16,6 @@ React, Javascript, HTML, CSS-grid, Flexbox
 
 ## Team members
 
-- [@nisha](https://github.com/NishaVijai)
 - [@emorissettegregoire](https://github.com/emorissettegregoire)
 - [@mthunzinamba](https://github.com/MthunziNamba)
+- [@nisha](https://github.com/NishaVijai)
