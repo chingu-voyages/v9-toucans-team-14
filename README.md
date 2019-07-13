@@ -18,4 +18,4 @@ Javascript, React, HTML, CSS-grid, Flexbox, Fontawesome
 
 - [@nisha](https://github.com/NishaVijai)
 - [@emorissettegregoire](https://github.com/emorissettegregoire)
-- [@MthunziNamba](https://github.com/MthunziNamba)
+- [@mthunzinamba](https://github.com/MthunziNamba)
