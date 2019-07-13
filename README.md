@@ -1,6 +1,6 @@
 # Goal
 
-Challenge ⛰️ ourselves in experimenting for the first time a React app!
+Challenge ⛰️ ourselves in experimenting for the first time a React ⚛️ app!
 
 Building a shopping app for sneaker 👟 lovers!
 
